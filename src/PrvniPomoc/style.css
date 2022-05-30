@@ -20,11 +20,7 @@ body {
 }
 
 .nadpisyH1 {
-  font-size: 30px;
-}
-
-ul {
-  list-style-type: none;
+  font-size: 12px;
 }
 
 .textPrvniPomoc {
@@ -35,25 +31,38 @@ ul {
 .obalPrvniPomoc {
   background-color: rgb(193, 189, 189);
 }
-.textPrvniPomoc1 {
+.textPrvniPomoc {
   text-align: justify;
   padding: 10px 0px 10px 0px;
   font-weight: bold;
+}
+.texPrvniPomoc-volej {
+  padding: 0px 0px 20px 0px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .texPrvniPomoc2 {
   font-weight: bold;
   text-align: center;
-  padding: 0px 0px 20px 0px;
-}
-
-.texPrvniPomoc2-volej {
   background-color: aquamarine;
 }
 
+h2 {
+  text-align: center;
+}
 .div {
   display: contents;
+  text-align: justify;
 }
-.div--schovat {
+.div--schovat,
+.div--schovat1,
+.div--schovat2,
+.div--schovat3,
+.div--schovat4,
+.div--schovat5,
+.div--schovat6,
+.div--schovat7,
+.div--schovat8 {
   display: none;
 }

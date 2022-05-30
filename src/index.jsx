@@ -16,19 +16,19 @@ const App = () => (
 );
 
 const Header = () => (
-  <div>
-    <h1>Pet Emergency</h1>
-    <nav style={{ borderBottom: 'solid 1px', paddingBottom: '1rem' }}>
-      <Link to="/home">Home</Link> | <Link to="/lekarnicka">Lékárnička</Link>|{' '}
-      <Link to="/prvniPomoc">První pomoc</Link>|{' '}
-      <Link to="/zvireVtisni">Zvíře v tísni</Link>
+  <div className="header">
+    <h1 className="header__h1">PET EMERGENCY</h1>
+    <nav>
+      <Link to="/home">HOME</Link> | <Link to="/lekarnicka">LÉKÁRNIČKA</Link>|{' '}
+      <Link to="/prvniPomoc">PRVNÍ POMOC</Link>|{' '}
+      <Link to="/zvireVtisni">ZVÍŘE V TÍSNI</Link>
     </nav>
   </div>
 );
 
 const Footer = () => (
-  <div className="container">
-    <p>Závěrečný projekt - Czechitas, Digitální akademie: Web.</p>
+  <div className="footer">
+    Závěrečný projekt - Czechitas, Digitální akademie: Web.
   </div>
 );
 

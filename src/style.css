@@ -10,9 +10,10 @@ html {
 }
 
 .container {
-  max-width: 26rem;
+  width: 700px;
+  /* max-width: 40rem; 
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;*/
 }
 
 body {
@@ -23,4 +24,24 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.header__h1 {
+  font-size: 12px;
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header,
+.footer {
+  background-color: rgb(176, 175, 175);
 }

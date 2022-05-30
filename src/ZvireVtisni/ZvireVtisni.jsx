@@ -3,7 +3,7 @@ import './style.css';
 
 const ZvireVtisni = () => (
   <div className="container">
-    <h1 className="NadpisyH1">Zvíře v tísni</h1>
+    <h1 className="NadpisyH1">ZVÍŘE V TÍSNI</h1>
     <div>
       <div>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eligendi
