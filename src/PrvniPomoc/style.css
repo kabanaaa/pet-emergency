@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+
+.container {
+  max-width: 26rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.nadpisyH1 {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.textPrvniPomoc {
+  text-align: justify;
+  padding: 0px 0px 10px 0px;
+}
+
+.obalPrvniPomoc {
+  background-color: rgb(193, 189, 189);
+}
+.textPrvniPomoc1 {
+  text-align: justify;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.texPrvniPomoc2 {
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.texPrvniPomoc2-volej {
+  background-color: aquamarine;
+}
+
+.div {
+  display: contents;
+}
+.div--schovat {
+  display: none;
+}
