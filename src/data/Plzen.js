@@ -1,4 +1,4 @@
-const plzen = [
+export const plzen = [
   {
     jmeno: 'Veterinární klinika Kleisslova (MVDr. Ladislava Kuncla)',
     adresa: 'Kleisslova 228/7, 301 00 Plzeň',

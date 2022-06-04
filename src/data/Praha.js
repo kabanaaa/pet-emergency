@@ -1,4 +1,4 @@
-const praha = [
+export const praha = [
   {
     jmeno: 'Pet-Medic',
     adresa: 'Beranových 130, 190 00 Praha 18',
