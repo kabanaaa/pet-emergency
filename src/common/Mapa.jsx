@@ -9,7 +9,7 @@ function isMobile() {
   );
 }
 
-function createMarkerBody(stanice) {
+function createMarkerBody(stanice, staniceCoords) {
   return (
     <div>
       <div className="polozkaKarty">
@@ -52,10 +52,18 @@ function createMarkerBody(stanice) {
           {stanice.poznamky}
         </div>
       )}
-      {isMobile ? 'Ukaž na počítači' : 'Ukaž na mobilu'}
-      <button href="https://mapy.cz/zakladni?x=14.5045000&y=50.0804000&z=11">
-        Ukaž mi trasu
-      </button>
+      {isMobile() ? (
+        <a href={`geo:${staniceCoords.y},${staniceCoords.x}`}>
+          Ukaž mi trasu mobilu{' '}
+        </a>
+      ) : (
+        <a
+          href={`https://mapy.cz/zakladni?q=${staniceCoords.y},${staniceCoords.x}&z=11`}
+          target="_blank"
+        >
+          Ukaž mi trasu
+        </a>
+      )}
     </div>
   );
 }
@@ -72,7 +80,7 @@ function createMarker(stanice, index) {
   var card = new SMap.Card();
   card.getHeader().innerHTML = `<strong>${stanice.jmeno}</strong>`;
   card.getBody().innerHTML = ReactDOMServer.renderToString(
-    createMarkerBody(stanice),
+    createMarkerBody(stanice, staniceCoords),
   );
 
   var options = {
