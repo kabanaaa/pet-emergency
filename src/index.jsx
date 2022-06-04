@@ -32,10 +32,18 @@ const Header = () => (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home">HOME</Nav.Link>
-            <Nav.Link href="/lekarnicka">LÉKÁRNIČKA</Nav.Link>
-            <Nav.Link href="/prvniPomoc">PRVNÍ POMOC</Nav.Link>
-            <Nav.Link href="/zvireVtisni">ZVÍŘE V TÍSNI</Nav.Link>
+            <Nav.Link as={Link} to="/home">
+              HOME
+            </Nav.Link>
+            <Nav.Link as={Link} to="/lekarnicka">
+              LÉKÁRNIČKA
+            </Nav.Link>
+            <Nav.Link as={Link} to="/prvniPomoc">
+              PRVNÍ POMOC
+            </Nav.Link>
+            <Nav.Link as={Link} to="/zvireVtisni">
+              ZVÍŘE V TÍSNI
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

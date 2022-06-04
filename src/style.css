@@ -42,6 +42,10 @@ p {
   color: black !important;
 }
 
+.nav-link {
+  color: black !important;
+}
+
 /* .header {
   display: flex;
   flex-wrap: nowrap;
