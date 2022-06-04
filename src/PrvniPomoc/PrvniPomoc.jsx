@@ -1,37 +1,33 @@
 import React from 'react';
-import { useState } from 'react';
 import './style.css';
-import PrvniPomocBlok from './PrvniPomocBlok';
+import { Accordion } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
 
 const PrvniPomoc = () => {
   return (
     <div className="container">
       <h1>PRVNÍ POMOC</h1>
       <div>
-        <div className="textPrvniPomoc">
+        <p className="textPrvniPomoc">
           První pomoc bude vždy rozdílná. Záleží na druhu zvířete, které
           zachraňuje a také situaci, ve které se nacházíte.
-        </div>
-        <div className="obalPrvniPomoc">
-          <div className="textPrvniPomoc">
+        </p>
+        <Alert>
+          <p className="textPrvniPomoc">
             Jaké jsou obecné rady, kterými se můžete řídit?
-          </div>
-          <div>
+          </p>
+          <p>
             V telefonu mějte uložený kontakt na nonstop veterinu nebo mít
             přístup k datům a využít tuto aplikaci.
-          </div>
-          <div>
+          </p>
+          <p>
             Zavolejte na veterinární pohotovost, veterinární záchrannou službu
             či ošetřujícímu veterináři.
-          </div>
-          <div>Řiďte se pokyny veterináře.</div>
-          <div>
-            Případně využijte obsah domácí lékárničky pro vašeho mazlíčka.
-          </div>
-          <div>
-            Pokud se s veterinářem domluvíte, převezte zvíře na veterinu
-          </div>
-        </div>
+          </p>
+          <p>Řiďte se pokyny veterináře.</p>
+          <p>Případně využijte obsah domácí lékárničky pro vašeho mazlíčka.</p>
+          <p>Pokud se s veterinářem domluvíte, převezte zvíře na veterinu</p>
+        </Alert>
       </div>
       <div className="texPrvniPomoc">
         <div className="texPrvniPomoc-volej">
@@ -41,86 +37,112 @@ const PrvniPomoc = () => {
           JAKÉ SITUACE MOHOU NASTAT A CO JE MOŽNÉ DĚLAT?
         </div>
       </div>
-      <PrvniPomocBlok nadpis="Přehřátí">
-        <div>
-          Přehřátí může nastat v letním období. Nejlepší první pomocí u přehřátí
-          je prevence - nevystavovat zvíře vysokým teplotám, zvýšit příjem
-          tekutin u zvířete, nenechávat zvíře v zavřeném autě ani na pár minut.
-        </div>
-        <div>Zchlaďte zvíře zábalem do mokrého ručníku na max. 10 minut.</div>
-        <div>Kontaktujte veterináře.</div>
-      </PrvniPomocBlok>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Přehřátí </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Přehřátí může nastat v letním období. Nejlepší první pomocí u
+              přehřátí je prevence - nevystavovat zvíře vysokým teplotám, zvýšit
+              příjem tekutin u zvířete, nenechávat zvíře v zavřeném autě ani na
+              pár minut.
+            </p>
+            <p>Zchlaďte zvíře zábalem do mokrého ručníku na max. 10 minut.</p>
+            <p>Kontaktujte veterináře.</p>
+          </Accordion.Body>
+        </Accordion.Item>
 
-      <PrvniPomocBlok nadpis="Popálení">
-        <div>
-          Popáleniny mohou být způsobeny teplem či chemicky. Dochází k poškození
-          kůže.
-        </div>
-        <div>Odstraňte zdroj tepla.</div>
-        <div>
-          Sledujte základní životní funkce, případě zahájíte resuscitaci
-        </div>
-        <div>
-          Vhodné je aplikovat vlhké obklady a pravidelně je měnit. Rána
-          způsobená chemickými popáleninami by měla být opláchnuta dostatečným
-          množstvím studené asi 10 minut.
-        </div>
-      </PrvniPomocBlok>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>Popálení</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Popáleniny mohou být způsobeny teplem či chemicky. Dochází k
+              poškození kůže.
+            </p>
+            <p>Odstraňte zdroj tepla.</p>
+            <p>
+              Sledujte základní životní funkce, případě zahájíte resuscitaci
+            </p>
+            <p>
+              Vhodné je aplikovat vlhké obklady a pravidelně je měnit. Rána
+              způsobená chemickými popáleninami by měla být opláchnuta
+              dostatečným množstvím studené asi 10 minut.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
 
-      <PrvniPomocBlok nadpis="Pokousání">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          odio corrupti molestiae, ducimus exercitationem mollitia praesentium
-          neque dolorum hic rem ab, voluptate aspernatur ipsum ratione debitis
-          excepturi dolorem, amet vitae.
-        </div>
-      </PrvniPomocBlok>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>Pokousání</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              odio corrupti molestiae, ducimus exercitationem mollitia
+              praesentium neque dolorum hic rem ab, voluptate aspernatur ipsum
+              ratione debitis excepturi dolorem, amet vitae.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
 
-      <PrvniPomocBlok nadpis="Otrava">
-        <div>
-          Pokud je to možné zjistěte příčinu otravy. Tou může být např. pokojová
-          květina, uštknutí hadem, čokoláda, nemrznoucí směs, čistící
-          prostředky, řasa, pesticidy, jedy na hlodavce a mnoho dalšího.
-          Vyvolejte zvracení nejlépe do dvou hodin od pozření za pomocí peroxidu
-          vodíku. Tento bod nedělejte nikdy bez porady s veterinářem. Podejte
-          černé uhlí. V případě otrávené návnady kontaktujte Policii ČR.
-        </div>
-      </PrvniPomocBlok>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>Otrava</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Pokud je to možné zjistěte příčinu otravy. Tou může být např.
+              pokojová květina, uštknutí hadem, čokoláda, nemrznoucí směs,
+              čistící prostředky, řasa, pesticidy, jedy na hlodavce a mnoho
+              dalšího. Vyvolejte zvracení nejlépe do dvou hodin od pozření za
+              pomocí peroxidu vodíku. Tento bod nedělejte nikdy bez porady s
+              veterinářem. Podejte černé uhlí. V případě otrávené návnady
+              kontaktujte Policii ČR.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
 
-      <PrvniPomocBlok nadpis="Zlomenina">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          excepturi architecto quaerat. Unde voluptas delectus amet ratione
-          laborum et, accusantium quod libero sunt labore, cupiditate ab officia
-          aperiam sit optio. ČR.
-        </div>
-      </PrvniPomocBlok>
-
-      <PrvniPomocBlok nadpis="Tonutí">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          excepturi architecto quaerat. Unde voluptas delectus amet ratione
-          laborum et, accusantium quod libero sunt labore, cupiditate ab officia
-          aperiam sit optio. ČR.
-        </div>
-      </PrvniPomocBlok>
-
-      <PrvniPomocBlok nadpis="Úraz nehoda">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          excepturi architecto quaerat. Unde voluptas delectus amet ratione
-          laborum et, accusantium quod libero sunt labore, cupiditate ab officia
-          aperiam sit optio. ČR.
-        </div>
-      </PrvniPomocBlok>
-
-      <PrvniPomocBlok nadpis="Křečové stavy">
-        <div>
-          Křečové stavy mohou být vyvolány různými spouštěči. Při záchvatu zvíře
-          nedržte, nesnažte se zabránit křečím. Naopak se snažte odstranit věci,
-          o které by si zvíře mohlo ublížit. Kontaktujte veterináře.
-        </div>
-      </PrvniPomocBlok>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header>Zlomenina </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              excepturi architecto quaerat. Unde voluptas delectus amet ratione
+              laborum et, accusantium quod libero sunt labore, cupiditate ab
+              officia aperiam sit optio. ČR.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="5">
+          <Accordion.Header>Tonutí</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              excepturi architecto quaerat. Unde voluptas delectus amet ratione
+              laborum et, accusantium quod libero sunt labore, cupiditate ab
+              officia aperiam sit optio. ČR.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="6">
+          <Accordion.Header>Úraz nehoda</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              excepturi architecto quaerat. Unde voluptas delectus amet ratione
+              laborum et, accusantium quod libero sunt labore, cupiditate ab
+              officia aperiam sit optio. ČR.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="7">
+          <Accordion.Header>Křečové stavy</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Křečové stavy mohou být vyvolány různými spouštěči. Při záchvatu
+              zvíře nedržte, nesnažte se zabránit křečím. Naopak se snažte
+              odstranit věci, o které by si zvíře mohlo ublížit. Kontaktujte
+              veterináře.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </div>
   );
 };

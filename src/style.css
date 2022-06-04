@@ -3,11 +3,11 @@
 * {
   box-sizing: border-box;
 }
-
+/* 
 html {
   font-family: 'Open Sans', sans-serif;
-  color: #444;
-}
+  color: #444; 
+} */
 
 .container {
   width: 90%;
@@ -25,22 +25,42 @@ body {
   flex-direction: column;
 }
 
-.header {
+.logo {
+  height: 3em;
+}
+
+h1 {
+  color: #008080 !important;
+  margin-top: 0.5em !important;
+}
+
+p {
+  color: black;
+}
+
+.accordion-button {
+  color: black !important;
+}
+
+/* .header {
   display: flex;
   flex-wrap: nowrap;
 }
 .header__h1 {
   font-size: 12px;
-}
+} */
 
-a {
+/* a {
   font-size: 12px;
   text-decoration: none;
   color: black;
   font-weight: bold;
-}
+} */
 
-.header,
+/* .header,
 .footer {
   background-color: rgb(176, 175, 175);
+} */
+:root {
+  --bs-body-color: black !important;
 }

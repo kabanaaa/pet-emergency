@@ -7,14 +7,12 @@
   padding: 0px 0px 10px 0px;
 }
 
-.obalPrvniPomoc {
-  background-color: rgb(193, 189, 189);
-}
 .textPrvniPomoc {
   text-align: justify;
   padding: 10px 0px 10px 0px;
   font-weight: bold;
 }
+
 .texPrvniPomoc-volej {
   padding: 0px 0px 20px 0px;
   font-weight: bold;
@@ -24,7 +22,7 @@
 .texPrvniPomoc2 {
   font-weight: bold;
   text-align: center;
-  background-color: aquamarine;
+  margin-bottom: 1em;
 }
 
 h2 {

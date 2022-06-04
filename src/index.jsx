@@ -6,6 +6,13 @@ import Home from './Home/Home.jsx';
 import Lekarnicka from './Lekarnicka/Lekarnicka.jsx';
 import PrvniPomoc from './PrvniPomoc/PrvniPomoc.jsx';
 import ZvireVtisni from './ZvireVtisni/ZvireVtisni.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from 'react-bootstrap/Navbar';
+import { Button } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import 'bootswatch/dist/minty/bootstrap.min.css';
 
 const App = () => (
   <div className="container">
@@ -17,12 +24,22 @@ const App = () => (
 
 const Header = () => (
   <div className="header">
-    <h1 className="header__h1">PET EMERGENCY</h1>
-    <nav>
-      <Link to="/home">HOME</Link> | <Link to="/lekarnicka">LÉKÁRNIČKA</Link>|{' '}
-      <Link to="/prvniPomoc">PRVNÍ POMOC</Link>|{' '}
-      <Link to="/zvireVtisni">ZVÍŘE V TÍSNI</Link>
-    </nav>
+    <Navbar bg="primary" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img className="logo" src="./img/logo_pruhledne.png" alt="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/home">HOME</Nav.Link>
+            <Nav.Link href="/lekarnicka">LÉKÁRNIČKA</Nav.Link>
+            <Nav.Link href="/prvniPomoc">PRVNÍ POMOC</Nav.Link>
+            <Nav.Link href="/zvireVtisni">ZVÍŘE V TÍSNI</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   </div>
 );
 

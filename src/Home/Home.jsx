@@ -29,13 +29,11 @@ const Home = () => {
     });
   }, []);
   if (lokace === null) {
-    return <div>loading</div>;
+    return <div>Načítání lokace</div>;
   }
   console.log(lokace);
   return (
     <div className="container">
-      {lokace.x}
-      {lokace.y}
       <Mapa stanices={allStanices} lokace={lokace} />
     </div>
   );

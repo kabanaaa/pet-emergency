@@ -1,8 +1,10 @@
 import React from 'react';
 import './style.css';
+import { Button } from 'react-bootstrap';
 
 const ZvireVtisni = () => (
   <div className="container">
+    <Button>bl</Button>
     <h1 className="NadpisyH1">ZVÍŘE V TÍSNI</h1>
     <div>
       <div>
