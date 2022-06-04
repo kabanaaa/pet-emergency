@@ -53,9 +53,7 @@ function createMarkerBody(stanice, staniceCoords) {
         </div>
       )}
       {isMobile() ? (
-        <a href={`geo:${staniceCoords.y},${staniceCoords.x}`}>
-          Ukaž mi trasu mobilu{' '}
-        </a>
+        <a href={`geo:${staniceCoords.y},${staniceCoords.x}`}>Ukaž mi trasu</a>
       ) : (
         <a
           href={`https://mapy.cz/zakladni?q=${staniceCoords.y},${staniceCoords.x}&z=11`}
@@ -92,9 +90,9 @@ function createMarker(stanice, index) {
   return marker;
 }
 
-const Mapa = ({ stanices }) => {
+const Mapa = ({ stanices, lokace }) => {
   useEffect(() => {
-    var center = SMap.Coords.fromWGS84(14.41, 50.08);
+    var center = SMap.Coords.fromWGS84(lokace.x, lokace.y);
     var mapa = new SMap(JAK.gel('mapa'), center, 10);
     mapa.addDefaultLayer(SMap.DEF_BASE).enable();
     mapa.addDefaultControls();
