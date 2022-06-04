@@ -14,8 +14,8 @@ function createMarkerBody(stanice) {
     <div>
       <div className="polozkaKarty">
         <strong>Adresa:</strong>
-        {stanice.adresa.split(',').map((x) => (
-          <div>{x}</div>
+        {stanice.adresa.split(',').map((x, i) => (
+          <div key={i}>{x}</div>
         ))}
       </div>
       <div className="polozkaKarty">
@@ -24,18 +24,20 @@ function createMarkerBody(stanice) {
           src="img/telephone.svg"
           alt="sluchatko telefonu"
         />
-        <a href={`tel:${stanice.telefon}`}>{stanice.telefon}</a>
+        <a className="odkazMapa" href={`tel:${stanice.telefon}`}>
+          {stanice.telefon}
+        </a>
       </div>
       <div className="polozkaKarty">
         <img className="kontakt" src="img/web.svg" alt="znacka pro web" />
-        <a href={stanice.web} target="_blank">
+        <a className="odkazMapa" href={stanice.web} target="_blank">
           {stanice.web}
         </a>
       </div>
       <div className="polozkaKarty">
         <strong> Otevírací doba:</strong>
-        {stanice.oteviraciDoba.split(',').map((x) => (
-          <div>{x}</div>
+        {stanice.oteviraciDoba.split(',').map((x, i) => (
+          <div key={i}>{x}</div>
         ))}
       </div>
       {stanice.pojistovna !== 'null' && (
@@ -59,7 +61,6 @@ function createMarkerBody(stanice) {
 }
 
 function createMarker(stanice, index) {
-  console.log(stanice.jmeno + stanice.GPS);
   var staniceCoords = SMap.Coords.fromWGS84(stanice.GPS);
 
   var znacka = JAK.mel('div');

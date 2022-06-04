@@ -1,4 +1,4 @@
-const liberec = [
+export const liberec = [
   {
     jmeno: 'Veterina Růžodol',
     adresa: 'Ostašovská 132/20, 460 01 Liberec',
