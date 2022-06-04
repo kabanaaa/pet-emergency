@@ -10,10 +10,9 @@ html {
 }
 
 .container {
-  width: 700px;
-  /* max-width: 40rem; 
+  width: 90%;
   margin-right: auto;
-  margin-left: auto;*/
+  margin-left: auto;
 }
 
 body {
