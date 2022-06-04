@@ -9,14 +9,16 @@ html {
   color: #444; 
 } */
 
-.container {
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+.mujcontainer {
+  width: 100%;
+  margin: 0;
+  /*   margin-right: auto;
+  margin-left: auto; */
 }
 
 body {
   margin: 0;
+  /*   width: 100%; */
 }
 
 #app {
@@ -24,6 +26,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* .header {
+  height: 5em;
+} */
+/* .menuNavBar {
+  height: 100%;
+} */
 
 .logo {
   height: 3em;

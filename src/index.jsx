@@ -15,10 +15,9 @@ import Container from 'react-bootstrap/Container';
 import 'bootswatch/dist/minty/bootstrap.min.css';
 
 const App = () => (
-  <div className="container">
+  <div>
     <Header />
     <Outlet />
-    <Footer />
   </div>
 );
 
@@ -31,7 +30,7 @@ const Header = () => (
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={Link} to="/home">
               HOME
             </Nav.Link>
@@ -48,12 +47,6 @@ const Header = () => (
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  </div>
-);
-
-const Footer = () => (
-  <div className="footer">
-    Závěrečný projekt - Czechitas, Digitální akademie: Web.
   </div>
 );
 

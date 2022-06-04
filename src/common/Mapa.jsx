@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import './style.css';
 import * as ReactDOMServer from 'react-dom/server';
+import { Button } from 'react-bootstrap';
 
 function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -59,7 +60,7 @@ function createMarkerBody(stanice, staniceCoords) {
           href={`https://mapy.cz/zakladni?q=${staniceCoords.y},${staniceCoords.x}&z=11`}
           target="_blank"
         >
-          Ukaž mi trasu
+          <Button className="mt-3">Ukaž mi trasu</Button>
         </a>
       )}
     </div>

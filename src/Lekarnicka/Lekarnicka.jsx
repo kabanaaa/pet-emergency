@@ -9,8 +9,6 @@ function creastLekarnickaLi(text) {
   );
 }
 const Lekarnicka = () => {
-  const [isOn, setIsOn] = useState(true);
-  let zmenaTridy = !isOn ? 'div' : 'div div--schovat';
   const lekarnickaList = [
     'Digitální teploměr s ohebnou špičkou',
     'Jednorázové rukavice',
@@ -62,15 +60,11 @@ const Lekarnicka = () => {
           Pokud jsi nejste jisti, konzultujte obsah lékárničky nebo konkrétní
           situaci s ošetřujícím veterinářem.
         </div>
+        <div className="textLekarnicka2">CO SE MŮŽE HODIT DO LÉKÁRNIČKY?</div>
         <div>
-          <div className="textLekarnicka2" onClick={() => setIsOn(!isOn)}>
-            CO SE MŮŽE HODIT DO LÉKÁRNIČKY?
-          </div>
-          <div className={zmenaTridy}>
-            <ul className="obsahLekarny">
-              {lekarnickaList.map(creastLekarnickaLi)}
-            </ul>
-          </div>
+          <ul className="obsahLekarny">
+            {lekarnickaList.map(creastLekarnickaLi)}
+          </ul>
         </div>
       </div>
     </div>
