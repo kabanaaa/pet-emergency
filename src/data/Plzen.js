@@ -68,7 +68,7 @@ export const plzen = [
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
-    web: 'www.euvet.cz',
+    web: 'http://www.euvet.cz',
     poznamky: 'null',
   },
   {
@@ -81,7 +81,7 @@ export const plzen = [
     platebniMetoda: 'hotovost,platební karta',
     odkazCenik: 'https://www.bolevet.cz/cenik',
     pojistovna: 'PetExpert',
-    web: 'www.bolevet.cz',
+    web: 'http://www.bolevet.cz',
     poznamky: 'soboty nepravidelně, potřeba ověřit na telefonu',
   },
 ];

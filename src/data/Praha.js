@@ -8,7 +8,7 @@ export const praha = [
     platebniMetoda: 'null',
     odkazCenik: 'https://pet-medic.cz/cenik/',
     pojistovna: 'null',
-    web: 'https://https://pet-medic.cz/',
+    web: 'https://pet-medic.cz/',
     poznamky: 'veterinární záchranná služba',
   },
   {
@@ -143,7 +143,7 @@ export const praha = [
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
-    web: 'www.veterinapaprsek.cz',
+    web: 'http://www.veterinapaprsek.cz',
     poznamky: 'null',
   },
   {
@@ -179,7 +179,7 @@ export const praha = [
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
-    web: 'www.jinvet.cz',
+    web: 'http://www.jinvet.cz',
     poznamky: 'null',
   },
   {
@@ -681,7 +681,7 @@ export const praha = [
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
-    web: 'www.homevet.cz',
+    web: 'http://www.homevet.cz',
     poznamky: 'výjezdy domů',
   },
   {

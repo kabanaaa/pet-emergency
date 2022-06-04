@@ -8,7 +8,7 @@ const ostrava = [
     platebniMetoda: 'null',
     odkazCenik: 'V SO, NE a o Státních svátcích je účtován pohotovostní poplatek 500,-Kč',
     pojistovna: 'null',
-    web: 'www.veterinavitkovice.cz',
+    web: 'http://www.veterinavitkovice.cz',
     poznamky: 'Mimo ordinační dobu pohotovostní služby neposkytujeme!',
 },
 {
