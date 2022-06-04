@@ -55,14 +55,6 @@ h2 {
   display: contents;
   text-align: justify;
 }
-.div--schovat,
-.div--schovat1,
-.div--schovat2,
-.div--schovat3,
-.div--schovat4,
-.div--schovat5,
-.div--schovat6,
-.div--schovat7,
-.div--schovat8 {
+.div--schovat {
   display: none;
 }

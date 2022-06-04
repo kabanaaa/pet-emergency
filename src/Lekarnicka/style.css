@@ -37,10 +37,12 @@ body {
 .div {
   display: contents;
 }
+
 .div--schovat {
   display: none;
 }
-ul {
+
+.obsahLekarny {
   list-style-type: none;
   padding: 0px 0px 10px 0px;
   margin-top: 0px;
@@ -48,4 +50,9 @@ ul {
 
 li {
   line-height: 2;
+}
+
+.kriz {
+  width: 2.5em;
+  height: 2.5em;
 }

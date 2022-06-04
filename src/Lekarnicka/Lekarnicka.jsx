@@ -1,11 +1,50 @@
 import React from 'react';
 import { useState } from 'react';
 import './style.css';
-
+function creastLekarnickaLi(text) {
+  return (
+    <li>
+      <img className="kriz" src="/img/kriz_pruhledne.svg" alt="krizek" /> {text}
+    </li>
+  );
+}
 const Lekarnicka = () => {
   const [isOn, setIsOn] = useState(true);
   let zmenaTridy = !isOn ? 'div' : 'div div--schovat';
-
+  const lekarnickaList = [
+    'Digitální teploměr s ohebnou špičkou',
+    'Jednorázové rukavice',
+    'Nůžky s kulatou špičkou',
+    'Gázové čtverce',
+    'Obvazová vata',
+    'Obinadlo',
+    'Náplast',
+    'Adhezivní bandáž ',
+    'Dezinfekce ',
+    'Hemagel',
+    'Pinzeta',
+    'Injekční stříkačka 10 ml bez jehly',
+    'Aplikátor tablet',
+    'Odstraňovač klíšťat nebo pinzeta na klíšťata',
+    'Roztok k čištění uší',
+    'Oční a ušní kapky',
+    'Psí balzám na tlapky',
+    'Opalovací krém Menforsan (kočky, psi)',
+    'Chladící podložka',
+    'Tablety pro rychlé zastavení průjmu',
+    'Pasty proti Trichobezoárům',
+    'Probiotika',
+    'Hřeben na blechy',
+    'Entero zoo gel',
+    'Gastrointestinální konzerva - při průjmu po 24 hodinovém půstu',
+    'Peroxid vodíku - hodí se i v případě otravy, kdy umí u psa vyvolat zvracení, vždy konzultujte s veterinářem',
+    'Černé uhlí / Enterogel - při otravě, když jsme nestihli vyvolat zvracení, vždy konzultujte s veterinářem',
+    'Přípravek na odčervení',
+    'Přípravek proti parazitům např. blechám, vnitřním parazitů',
+    'Léky proti alergii např. vosí bodnutí',
+    'Přípravky na zklidnění při stresové situaci',
+    'Přípravky na podporu imunity',
+  ];
   return (
     <div className="container">
       <h1 className="NadpisyH1">LÉKÁRNIČKA</h1>
@@ -28,49 +67,8 @@ const Lekarnicka = () => {
             CO SE MŮŽE HODIT DO LÉKÁRNIČKY?
           </div>
           <div className={zmenaTridy}>
-            <ul>
-              <li>Digitální teploměr s ohebnou špičkou</li>
-              <li>Jednorázové rukavice</li>
-              <li>Nůžky s kulatou špičkou</li>
-              <li>Gázové čtverce</li>
-              <li>Obvazová vata</li>
-              <li>Obinadlo</li>
-              <li>Náplast</li>
-              <li>Adhezivní bandáž </li>
-              <li>Dezinfekce </li>
-              <li>Hemagel</li>
-              <li>Pinzeta</li>
-              <li>Injekční stříkačka 10 ml bez jehly</li>
-              <li>Aplikátor tablet</li>
-              <li>Odstraňovač klíšťat nebo pinzeta na klíšťata</li>
-              <li>Roztok k čištění uší</li>
-              <li>Oční a ušní kapky</li>
-              <li>Psí balzám na tlapky</li>
-              <li>Opalovací krém Menforsan (kočky, psi)</li>
-              <li>Chladící podložka</li>
-              <li>Tablety pro rychlé zastavení průjmu</li>
-              <li>Pasty proti Trichobezoárům</li>
-              <li>Probiotika</li>
-              <li>Hřeben na blechy</li>
-              <li>Entero zoo gel</li>
-              <li>
-                Gastrointestinální konzerva - při průjmu po 24 hodinovém půstu
-              </li>
-              <li>
-                Peroxid vodíku - hodí se i v případě otravy, kdy umí u psa
-                vyvolat zvracení, vždy konzultujte s veterinářem
-              </li>
-              <li>
-                Černé uhlí / Enterogel - při otravě, když jsme nestihli vyvolat
-                zvracení, vždy konzultujte s veterinářem
-              </li>
-              <li>Přípravek na odčervení</li>
-              <li>
-                Přípravek proti parazitům např. blechám, vnitřním parazitů
-              </li>
-              <li>Léky proti alergii např. vosí bodnutí</li>
-              <li>Přípravky na zklidnění při stresové situaci</li>
-              <li>Přípravky na podporu imunity</li>
+            <ul className="obsahLekarny">
+              {lekarnickaList.map(creastLekarnickaLi)}
             </ul>
           </div>
         </div>
