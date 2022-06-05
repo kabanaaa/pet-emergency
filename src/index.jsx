@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 import Home from './Home/Home.jsx';
 import Hledani from './Hledani/Hledani.jsx';
 import Lekarnicka from './Lekarnicka/Lekarnicka.jsx';
@@ -52,7 +52,7 @@ const Header = () => (
 );
 
 createRoot(document.querySelector('#app')).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
@@ -63,5 +63,5 @@ createRoot(document.querySelector('#app')).render(
         <Route path="zvirevtisni" element={<ZvireVtisni />} />
       </Route>
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
 );
