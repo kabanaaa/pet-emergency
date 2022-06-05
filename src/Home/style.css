@@ -20,8 +20,12 @@
   font-weight: bold !important;
   text-align: center;
   margin-top: 3%;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
+.textKlik2 {
+  text-align: center;
+}
 .pouceniAlert {
   background-color: #cfccd6 !important;
   text-align: justify;

@@ -8,11 +8,13 @@ import { Row, Col, Container } from 'react-bootstrap';
 const Home = () => {
   return (
     <>
-      <div className="vyskaHome">
-        <p className="textKlik">
-          Vítejte na stárnkách PetEmergency. <br /> Pokud hledáte veterinární
-          pohotovost můžete začít hledat zde:
+      <div>
+        <p className="textKlik">Vítejte na stárnkách PetEmergency,</p>
+        <p className="textKlik2">
+          pokud hledáte veterinární pohotovost můžete začít hledat{' '}
+          <strong>zde</strong>:
         </p>
+
         <Button className="buttonKlik d-flex align-items-center justify-content-center">
           <Link to="/hledani">
             <img
