@@ -1,7 +1,7 @@
 export const plzen = [
   {
     jmeno: 'Veterinární klinika Kleisslova (MVDr. Ladislava Kuncla)',
-    adresa: 'Kleisslova 228/7, 301 00 Plzeň',
+    adresa: 'Kleisslova 228/7, 30100 Plzeň',
     GPS: '49.7563667N, 13.3724508E',
     oteviraciDoba: 'PO - PÁ 8:00 - 20:00, SO 8:00 - 15:00, NE 14:00 - 22:00',
     telefon: '+420377533461',
@@ -13,9 +13,9 @@ export const plzen = [
   },
   {
     jmeno: 'RPVet Veterinární klinika',
-    adresa: 'Dvořákova 9/1181, 301 00 Plzeň',
+    adresa: 'Dvořákova 9/1181, 30100 Plzeň',
     GPS: '49.7277794N, 13.3690567E',
-    oteviraciDoba: 'PO - PÁ 8:00 - 19:00, SO -NE  9:00 - 21:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 19:00, SO - NE  9:00 - 21:00',
     telefon: '+420777802165',
     platebniMetoda: 'null',
     odkazCenik: 'null',
@@ -25,7 +25,7 @@ export const plzen = [
   },
   {
     jmeno: 'Veterinární klinika Vedilab s.r.o.',
-    adresa: 'Pod Vrchem 51, 312 00 Plzeň',
+    adresa: 'Pod Vrchem 51, 31200 Plzeň',
     GPS: '49.7430497N, 13.4136839E',
     oteviraciDoba: 'PO - PÁ 8:00 - 18:00, SO -NE  8:00 - 13:00',
     telefon: '+420720995794',
@@ -37,9 +37,9 @@ export const plzen = [
   },
   {
     jmeno: 'Veterinární klinika ZODIACUS 97 s.r.o.',
-    adresa: 'Vejprnická 79,318 00 Plzeň',
+    adresa: 'Vejprnická 79, 31800 Plzeň',
     GPS: '49.7427942N, 13.3381308E',
-    oteviraciDoba: 'PO - PÁ 8:00 - 12:00, 14:00 - 18:00, SO 9:00 - 11:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 12:00 14:00 - 18:00, SO 9:00 - 11:00',
     telefon: '+420602951259',
     platebniMetoda: 'null',
     odkazCenik: 'https://veterina-plzen.cz/pohotovost/',
@@ -49,7 +49,7 @@ export const plzen = [
   },
   {
     jmeno: 'Primaveterina MVDr. Radek Herynk',
-    adresa: 'U Školy 8, 32600 Plzeň -Černice',
+    adresa: 'U Školy 8, 32600 Plzeň - Černice',
     GPS: '49.6962281N, 13.4179619E',
     oteviraciDoba: 'PO - PÁ 9:00 - 18:00',
     telefon: '+420732969741',
@@ -61,7 +61,7 @@ export const plzen = [
   },
   {
     jmeno: 'Zvěrolékařství, MVDr. Zdeněk Drozd',
-    adresa: 'Plaská 54A, 323 00 Plzeň',
+    adresa: 'Plaská 54A, 32300 Plzeň',
     GPS: '49.7786981N, 13.3820883E',
     oteviraciDoba: 'PO– PÁ 14:00 – 18:00, SO 8:00 – 10:00, NE 17:00 – 19:00',
     telefon: '+420602773645',
@@ -73,7 +73,7 @@ export const plzen = [
   },
   {
     jmeno: 'Veterinární ordinace BoleVET',
-    adresa: 'U Velkého rybníka 45, 301 00 Plzeň',
+    adresa: 'U Velkého rybníka 45, 30100 Plzeň',
     GPS: '49.7730750N, 13.3920747E',
     oteviraciDoba:
       'PO 15:00-20:00, ÚT, PÁ 10:00-14:00, ST, ČT 15:00-19:00, SO 10:00-12:00',

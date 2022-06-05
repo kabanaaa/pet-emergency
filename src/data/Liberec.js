@@ -1,9 +1,9 @@
 export const liberec = [
   {
     jmeno: 'Veterina Růžodol',
-    adresa: 'Ostašovská 132/20, 460 01 Liberec',
+    adresa: 'Ostašovská 132/20, 46001 Liberec',
     GPS: '50.7726450N, 15.0363294E',
-    oteviraciDoba: 'PO - NE 00:00 - 24:00, pohotovost všední dny  18:00 - 7:00',
+    oteviraciDoba: 'PO - NE 00:00 - 24:00',
     telefon: '+420485103881',
     platebniMetoda: 'null',
     odkazCenik: 'null',
@@ -13,10 +13,10 @@ export const liberec = [
   },
   {
     jmeno: 'Veterinární klinika Hanychov',
-    adresa: 'Ještědská 593/36, 460 07 Liberec 7',
+    adresa: 'Ještědská 593/36, 46007 Liberec 7',
     GPS: '50.7528378N, 15.0356042E',
     oteviraciDoba:
-      'PO - PÁ 8:00 - 12:00  13:00 - 20:00, SO 9:00 - 12:00, NE 18:00 - 19:00, Pohotovost do 22:00',
+      'PO - PÁ 8:00 - 12:00 13:00 - 20:00, SO 9:00 - 12:00, NE 18:00 - 19:00, Pohotovost do 22:00',
     telefon: '+420736175107',
     platebniMetoda: 'hotovost, platební karta',
     odkazCenik: 'null',
@@ -26,10 +26,10 @@ export const liberec = [
   },
   {
     jmeno: 'Veterinární klinika Pavlovice',
-    adresa: 'Generála Svobody 84/26,460 14 Liberec 13',
+    adresa: 'Generála Svobody 84/26, 46014 Liberec 13',
     GPS: '50.7811147N, 15.0524117E',
     oteviraciDoba:
-      'PO 08:00 - 11:00 15:00 - 19:00,  ÚT, ČT 15:00 - 19:00, ST, PÁ 08:00 - 11:00, Pohotovost do 22:00',
+      'PO 08:00 - 11:00 15:00 - 19:00, ÚT, ČT 15:00 - 19:00, ST, PÁ 08:00 - 11:00, Pohotovost do 22:00',
     telefon: '+420736175107',
     platebniMetoda: 'hotovost, platební karta',
     odkazCenik: 'null',
@@ -39,7 +39,7 @@ export const liberec = [
   },
   {
     jmeno: 'Veterinární ordinace Kateřinky- MVDr. Čeněk Červený',
-    adresa: 'Kateřinská 201, 76014 Liberec 17  Kateřinky',
+    adresa: 'Kateřinská 201, 76014 Liberec 17 - Kateřinky',
     GPS: '50.7981833N, 15.0714769E',
     oteviraciDoba: 'PO - PÁ 7:30 - 9:00  14:00 - 18:00, SO 9:00 - 11:00',
     telefon: '+420603731535',
@@ -53,7 +53,7 @@ export const liberec = [
     jmeno: 'Veterinární klinika LBvet Liberec',
     adresa: 'Aloisina výšina 581/37, 46015 Liberec',
     GPS: '50.7628669N, 15.0897322E',
-    oteviraciDoba: 'PO - PÁ 8:00 - 11:00  14:00 - 18:00, SO 10:00 - 12:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 11:00 14:00 - 18:00, SO 10:00 - 12:00',
     telefon: '+420735135110',
     platebniMetoda: 'null',
     odkazCenik: 'null',
@@ -63,9 +63,9 @@ export const liberec = [
   },
   {
     jmeno: 'Veterinární ordinace KOLAFA s.r.o. ',
-    adresa: 'Dubový vrch 334, 460 15 Liberec 15',
+    adresa: 'Dubový vrch 334, 46015 Liberec 15',
     GPS: '50.7695008N, 15.0916139E',
-    oteviraciDoba: 'PO - PÁ 8:00 - 10:00  16:00 - 18:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 10:00 16:00 - 18:00',
     telefon: '+420602411065',
     platebniMetoda: 'null',
     odkazCenik: 'null',

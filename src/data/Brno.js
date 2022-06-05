@@ -1,21 +1,21 @@
 export const brno = [
   {
     jmeno: 'Veterinární klinika Brno s pohotovostí',
-    adresa: 'Gellnerova 8, 63700, Brno, Jundrov',
+    adresa: 'Gellnerova 8, 63700 Brno - Jundrov',
     GPS: '49.2078400N, 16.5544567E',
-    oteviraciDoba: 'PO - PA 8:00 - 10:00 14:00 - 18:00,Pohotovost nonstop',
+    oteviraciDoba: 'PO - PÁ 8:00 - 10:00 14:00 - 18:00',
     telefon: '+420603103377',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
     web: 'http://hosek-vet.cz/',
-    poznamky: 'Objednání Online nebo telefonicky',
+    poznamky: 'Pohotovost nonstop, Objednání Online nebo telefonicky',
   },
   {
     jmeno: 'Veterinární pohotovost Brno MVDr.Robert Just',
-    adresa: 'Jihomoravské nám. 1, 62700, Brno, Slatina',
+    adresa: 'Jihomoravské nám. 1, 62700 Brno - Slatina',
     GPS: '49.1790236N, 16.6843300E',
-    oteviraciDoba: 'PO - PA 8:00 - 12:00 14:00 - 18:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 12:00 14:00 - 18:00',
     telefon: '+420723523960',
     platebniMetoda: 'null',
     odkazCenik:
@@ -26,10 +26,10 @@ export const brno = [
   },
   {
     jmeno: 'Veterina Brno - Veterinární ordinace MVDr Boris Seman',
-    adresa: 'Pálavské nám. 3a, 62800, Brno, Vinohrady',
+    adresa: 'Pálavské nám. 3a, 62800 Brno - Vinohrady',
     GPS: '49.2063247N, 16.6580958E',
     oteviraciDoba:
-      'PO - PA 8:00 - 12:00 14:00 - 18:00, SO 8:00 - 11:00, NE 17:00 - 19:00, Nonstop veterinární pohotovost na mobilu pro Brno a okolí',
+      'PO - PÁ 8:00 - 12:00 14:00 - 18:00, SO 8:00 - 11:00, NE 17:00 - 19:00, Nonstop veterinární pohotovost na mobilu pro Brno a okolí',
     telefon: '+420777478077',
     platebniMetoda: 'hotovost, platební karta',
     odkazCenik:
@@ -41,9 +41,9 @@ export const brno = [
   {
     jmeno:
       'Veterinární univerzita Brno - Klinika chorob psů a koček Fakulty veterinárního lékařství',
-    adresa: 'Palackého 1946/1, 61200, Brno, Královo Pole',
+    adresa: 'Palackého 1946/1, 61200 Brno - Královo Pole',
     GPS: '49.2181739N, 16.5961761E',
-    oteviraciDoba: 'PO - PA 8:00 - 15:30, Pohotovost PO - NE 15:30 - 8:00',
+    oteviraciDoba: 'PO - PÁ 8:00 - 15:30, Pohotovost PO - NE 15:30 - 8:00',
     telefon:
       'Dispečink +420541562392, Odd. vnitřních chorob, Všeobecná ambulance +420541562375, Pohotovost +420724706366, Odd.chrirurgie a ortopedie, Všeobecná ambulance +420541562356, Pohotovost +420724706320, Odd.reprodukce, Ambulance +420541562341, Pohotovost +420724537278',
     platebniMetoda: 'null',
@@ -55,10 +55,10 @@ export const brno = [
   },
   {
     jmeno: 'Veterinární univerzita Brno- Klinika chorob koní',
-    adresa: 'Palackého 1946/1, 61200, Brno, Královo Pole',
+    adresa: 'Palackého 1946/1, 61200 Brno, - Královo Pole',
     GPS: '49.2164764N, 16.5969639E',
     oteviraciDoba:
-      ' PO - PA 8:00 - 12:00 13:00 – 15:00, Pohotovost PO - NE 16:00 - 7:45',
+      ' PO - PÁ 8:00 - 12:00 13:00 – 15:00, Pohotovost PO - NE 16:00 - 7:45',
     telefon:
       'Dispečink +420541562392, Klinika chorob koní +420541562372, Pohotovost +420725375122 ',
     platebniMetoda: 'null',
@@ -70,9 +70,9 @@ export const brno = [
   },
   {
     jmeno: 'Veterinární univerzita Brno - Klinika chorob přežvýkavců a prasat',
-    adresa: 'Palackého 1946/1, 61200, Brno, Královo Pole, budova č. 7.',
+    adresa: 'Palackého 1946/1, 61200 Brno - Královo Pole, budova č. 7.',
     GPS: '49.2168122N, 16.5977478E',
-    oteviraciDoba: 'PO - PA 7:00 - 15:30, Pohotovost PO - PA 15:30 - 18:00',
+    oteviraciDoba: 'PO - PÁ 7:00 - 15:30, Pohotovost PO - PÁ 15:30 - 18:00',
     telefon:
       'Dispečink +420541562392, Klinika chorob přežvýkavců a prasat +420541562317',
     platebniMetoda: 'null',
@@ -82,7 +82,7 @@ export const brno = [
     poznamky:
       'Nepřijímáme žádnou kategorii skotu ani telata. Nonstop ošetření neodkladných pacientů s pohotovostním příplatkem. Dispečink 8:00 - 20:00',
   },
-  {
+  /*   {
     jmeno: 'Veterinární ordinace Pohořelice - Nosislav',
     adresa: 'Brněnská 352, 69123, Pohořelice, Komenského 441, 69164, Nosislav',
     GPS: '48.9843731N, 16.5288717E',
@@ -95,5 +95,5 @@ export const brno = [
     web: 'https://www.veterina-stuchlik.cz',
     poznamky:
       'Nabízím možnost ošetření ve večerních hodinách doma - v Nosislavi',
-  },
+  }, */
 ];
