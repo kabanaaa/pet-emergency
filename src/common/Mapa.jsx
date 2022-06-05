@@ -97,7 +97,7 @@ function createMarker(stanice, index) {
 const Mapa = ({ stanices, lokace }) => {
   useEffect(() => {
     var center = SMap.Coords.fromWGS84(lokace.x, lokace.y);
-    var mapa = new SMap(JAK.gel('mapa'), center, 10);
+    var mapa = new SMap(JAK.gel('mapa'), center, 15);
     mapa.addDefaultLayer(SMap.DEF_BASE).enable();
     mapa.addDefaultControls();
     var layer = new SMap.Layer.Marker();
