@@ -7,7 +7,6 @@ const PrvniPomoc = () => {
     <div className="container">
       <h1>PRVNÍ POMOC</h1>
       <div>
-
         <Alert>
           <p className="textPrvniPomoc">
             Jaké jsou obecné rady, kterými se můžete řídit?
@@ -39,25 +38,28 @@ const PrvniPomoc = () => {
       </div>
       <Accordion>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Přehřátí </Accordion.Header>
+          <Accordion.Header>Křečové stavy </Accordion.Header>
           <Accordion.Body>
             <p>
-              Nejlepší první pomocí u přehřátí je prevence - nevystavovat zvíře
-              vysokým teplotám, zvýšit příjem tekutin u zvířete, nenechávat
-              zvíře v zavřeném autě ani na pár minut. Zchlaďte zvíře zábalem do
-              mokrého ručníku na max. 10 minut. Kontaktujte veterináře.
+              Křečové stavy mohou být vyvolány různými spouštěči. Při záchvatu
+              zvíře nedržte, nesnažte se zabránit křečím. Naopak se snažte
+              odstranit věci, o které by si zvíře mohlo ublížit. Kontaktujte
+              veterináře.
             </p>
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Popálení</Accordion.Header>
+          <Accordion.Header>Otrava</Accordion.Header>
           <Accordion.Body>
             <p>
-              Popáleniny bývají způsobeny sluncem, teplem, elektrickým proudem
-              či chemicky. Odstraňte zdroj, který způsobuje popálení. Sledujte
-              základní životní funkce a kontaktujte veterináře. Můžete aplikovat
-              vlhké obklady a pravidelně je měnit.
+              Pokud je to možné zjistěte příčinu otravy. Tou může být např.
+              pokojová květina, uštknutí hadem, čokoláda, nemrznoucí směs,
+              čistící prostředky, řasa, pesticidy, jedy na hlodavce a mnoho
+              dalšího. Vyvolejte zvracení nejlépe do dvou hodin od pozření za
+              pomocí peroxidu vodíku. Tento bod nedělejte nikdy bez porady s
+              veterinářem. Podejte černé uhlí. V případě otrávené návnady
+              kontaktujte Policii ČR.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -75,37 +77,34 @@ const PrvniPomoc = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
-          <Accordion.Header>Otrava</Accordion.Header>
+          <Accordion.Header>Popálení</Accordion.Header>
           <Accordion.Body>
             <p>
-              Pokud je to možné zjistěte příčinu otravy. Tou může být např.
-              pokojová květina, uštknutí hadem, čokoláda, nemrznoucí směs,
-              čistící prostředky, řasa, pesticidy, jedy na hlodavce a mnoho
-              dalšího. Vyvolejte zvracení nejlépe do dvou hodin od pozření za
-              pomocí peroxidu vodíku. Tento bod nedělejte nikdy bez porady s
-              veterinářem. Podejte černé uhlí. V případě otrávené návnady
-              kontaktujte Policii ČR.
+              Popáleniny bývají způsobeny sluncem, teplem, elektrickým proudem
+              či chemicky. Odstraňte zdroj, který způsobuje popálení. Sledujte
+              základní životní funkce a kontaktujte veterináře. Můžete aplikovat
+              vlhké obklady a pravidelně je měnit.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
-          <Accordion.Header>Zlomenina </Accordion.Header>
+          <Accordion.Header>Přehřátí </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Nejlépe je přehřátí předcházet - nevystavovat zvíře vysokým
+              teplotám, zvýšit příjem tekutin u zvířete, nenechávat zvíře v
+              zavřeném autě ani na pár minut. Zchlaďte zvíře zábalem do mokrého
+              ručníku na max. 10 minut. Kontaktujte veterináře.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="5">
+          <Accordion.Header>Zlomenina</Accordion.Header>
           <Accordion.Body>
             <p>
               Zlomneniny mohou být otevřené a nebo zavřené, bez konzultace s
               veterinářem je neošetřujte. Proto kontaktujte veterináře a
               dohodněte se na ošetření.
-            </p>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="5">
-          <Accordion.Header>Křečové stavy</Accordion.Header>
-          <Accordion.Body>
-            <p>
-              Křečové stavy mohou být vyvolány různými spouštěči. Při záchvatu
-              zvíře nedržte, nesnažte se zabránit křečím. Naopak se snažte
-              odstranit věci, o které by si zvíře mohlo ublížit. Kontaktujte
-              veterináře.
             </p>
           </Accordion.Body>
         </Accordion.Item>
