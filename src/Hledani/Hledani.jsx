@@ -36,6 +36,7 @@ const Hledani = () => {
   console.log(lokace);
   return (
     <div>
+      <Mapa stanices={allStanices} lokace={lokace} />
       <span className="vysvetlivky">
         <span className="me-2">
           <img
@@ -54,7 +55,6 @@ const Hledani = () => {
           Otvírací doba v detailu
         </span>
       </span>
-      <Mapa stanices={allStanices} lokace={lokace} />
     </div>
   );
 };
