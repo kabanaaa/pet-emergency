@@ -34,7 +34,7 @@ export const brno = [
     platebniMetoda: 'hotovost, platební karta',
     odkazCenik:
       'Pohotovostní příplatek za veterinární vyšetření mimo ordinační dobu dle závažnosti úkonu: od 480,- Kč vč. DPH, Příplatek za návštěvu veterináře u klienta, Vinohrady, Líšeň, Židenice: od 300,- Kč vč. DPH, Příplatek za návštěvu veterináře u klienta, ostatní části Brna: od 400,- Kč vč. DPH',
-    pojistovna: 'null',
+    pojistovna: 'PetExpert',
     web: 'https://www.veterina-seman.cz/',
     poznamky: 'null',
   },
@@ -82,18 +82,4 @@ export const brno = [
     poznamky:
       'Nepřijímáme žádnou kategorii skotu ani telata. Nonstop ošetření neodkladných pacientů s pohotovostním příplatkem. Dispečink 8:00 - 20:00',
   },
-  /*   {
-    jmeno: 'Veterinární ordinace Pohořelice - Nosislav',
-    adresa: 'Brněnská 352, 69123, Pohořelice, Komenského 441, 69164, Nosislav',
-    GPS: '48.9843731N, 16.5288717E',
-    oteviraciDoba:
-      'Ordinace Pohořelice, PO - PA 9:30 - 11:30 14:00 - 17:00, SO 8:00 - 11:00, Ordinace Nosice, 19:00 - 21:00',
-    telefon: '+420603425646',
-    platebniMetoda: 'null',
-    odkazCenik: 'null',
-    pojistovna: 'null',
-    web: 'https://www.veterina-stuchlik.cz',
-    poznamky:
-      'Nabízím možnost ošetření ve večerních hodinách doma - v Nosislavi',
-  }, */
 ];

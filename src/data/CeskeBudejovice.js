@@ -9,7 +9,7 @@ export const ceskeBudejovice = [
     telefon: 'Klinika +420385520561, Ordinace +420606023141',
     platebniMetoda: 'null',
     odkazCenik: 'null',
-    pojistovna: 'null',
+    pojistovna: 'PetExpert',
     web: 'https://www.klinika-vltava.cz/',
     poznamky: 'null',
   },
