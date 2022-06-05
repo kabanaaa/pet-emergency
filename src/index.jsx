@@ -9,9 +9,7 @@ import PrvniPomoc from './PrvniPomoc/PrvniPomoc.jsx';
 import ZvireVtisni from './ZvireVtisni/ZvireVtisni.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
-import { Button } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
-import { NavDropdown } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import 'bootswatch/dist/minty/bootstrap.min.css';
 

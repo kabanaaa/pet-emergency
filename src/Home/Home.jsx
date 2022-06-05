@@ -8,7 +8,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="vyskaHome">
         <p className="textKlik">
           Vítejte na stárnkách PetEmergency. <br /> Pokud hledáte veterinární
           pohotovost můžete začít hledat zde:
