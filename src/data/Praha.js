@@ -68,7 +68,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární Klinika Erika',
-    adresa: 'Na Šejdru 45, 14200 Praha 4 - Libuš',
+    adresa: 'Náměstí Dr. Holého 1049/8, 18000 Praha 8 - Libeň',
     GPS: '50.1064147N, 14.4751128E',
     oteviraciDoba: 'PO – NE 0:00 – 24:00',
     telefon: '+420284821784',
