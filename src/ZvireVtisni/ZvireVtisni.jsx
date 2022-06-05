@@ -7,20 +7,10 @@ const ZvireVtisni = () => (
     <h1 className="NadpisyH1">ZVÍŘE V TÍSNI</h1>
     <div className="textZvireVTisni">
       <p>
-        Český svaz ochránců přírody má{' '}
-        <a href="https://play.google.com/store/apps/details?id=cz.uhk.fim.zvirevnouzi">
-          mobilní aplikaci
-        </a>
-        , která Vám pomůže, když ve městě nebo v přírodě najdete zraněné nebo
-        opuštěné zvíře. Aplikace pomocí gps pozice vyhledá záchrannou stanici, v
-        jejíž působnosti se právě nacházíte a nabídne Vám rovnou do stanice
-        zavolat, poslat gps souřadnice místa nálezu, nebo Vás naviguje, pokus se
-        domluvíte na osobním předání zvířete. Můžete zaslat do stanice
-        fotografii zvířete.
+        Český svaz ochránců přírody má <a href="https://play.google.com/store/apps/details?id=cz.uhk.fim.zvirevnouzi">mobilní aplikaci</a>, která Vám pomůže, když najdete zraněné nebo opuštěné zvíře. Aplikace pomocí GPS pozice vyhledá záchrannou stanici, v jejíž působnosti se právě nacházíte a nabídne Vám rovnou do stanice zavolat, poslat GPS souřadnice místa nálezu, nebo Vás naviguje, pokud se domluvíte na osobním předání zvířete.
       </p>
       <p>
-        Dispečink záchranných stanic:
-        <a href="tel:+420774155155">774 155 155</a>
+        Místo mobilní aplikace můžete použít telefonní kontakt na dispečink záchranných stanic: <a href="tel:+420774155155">774 155 155</a>.
       </p>
     </div>
     <Alert>
@@ -35,7 +25,7 @@ const ZvireVtisni = () => (
       </p>
       <p className="textDesatero">
         Dospělá zvířata patří do rukou odborníků z důvodu nakažení přenosnou
-        nemocí. Dodržujte hygienu!
+        nemocí.
       </p>
       <p className="textDesatero">
         Při kontaktování odborníků popište místo, vzhled a projevy zraněného

@@ -7,10 +7,7 @@ const PrvniPomoc = () => {
     <div className="container">
       <h1>PRVNÍ POMOC</h1>
       <div>
-        <p className="textPrvniPomoc">
-          První pomoc bude vždy rozdílná. Záleží na druhu zvířete, které
-          zachraňuje a také situaci, ve které se nacházíte.
-        </p>
+
         <Alert>
           <p className="textPrvniPomoc">
             Jaké jsou obecné rady, kterými se můžete řídit?
@@ -25,7 +22,11 @@ const PrvniPomoc = () => {
           </p>
           <p>Řiďte se pokyny veterináře.</p>
           <p>Případně využijte obsah domácí lékárničky pro vašeho mazlíčka.</p>
-          <p>Pokud se s veterinářem domluvíte, převezte zvíře na veterinu</p>
+          <p>Pokud se s veterinářem domluvíte, převezte zvíře na veterinu.</p>
+          <p>
+            První pomoc bude vždy rozdílná. Záleží na druhu zvířete, které
+            zachraňuje a také situaci, ve které se nacházíte.
+          </p>
         </Alert>
       </div>
       <div className="texPrvniPomoc">
