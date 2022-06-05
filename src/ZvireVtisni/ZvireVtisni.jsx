@@ -10,7 +10,7 @@ const ZvireVtisni = () => (
       <div className="textZvireVTisni">
         <p>
           Český svaz ochránců přírody má{' '}
-          <a href="https://play.google.com/store/search?q=zv%C3%AD%C5%99e%20v%20nouzi&c=apps">
+          <a href="https://play.google.com/store/apps/details?id=cz.uhk.fim.zvirevnouzi">
             mobilní aplikaci
           </a>
           , která Vám pomůže, když ve městě nebo v přírodě najdete zraněné nebo
