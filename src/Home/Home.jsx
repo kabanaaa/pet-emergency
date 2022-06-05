@@ -38,7 +38,10 @@ const Home = () => {
                 přijetí zvířete k ošetření.
               </p>
             </Col>
-            <Col sm={4} className="d-flex justify-content-end">
+            <Col
+              sm={4}
+              className="d-flex align-items-center justify-content-end"
+            >
               <a href="mailto:banackakaterina@gmail.com,Sarka7091@gmail.com">
                 <Button className="mt-1">
                   Našli jste nesrovnalost? <br /> Napište nám.
