@@ -26,6 +26,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.nav-link.active {
+  text-decoration: underline;
+}
 /* .header {
   height: 5em;
 } */

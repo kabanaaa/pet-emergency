@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import './style.css';
 import { createRoot } from 'react-dom/client';
-import { HashRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+import {
+  HashRouter,
+  Routes,
+  Route,
+  Link,
+  Outlet,
+  useLocation,
+} from 'react-router-dom';
 import Home from './Home/Home.jsx';
 import Hledani from './Hledani/Hledani.jsx';
 import Lekarnicka from './Lekarnicka/Lekarnicka.jsx';
@@ -25,6 +32,7 @@ const Header = () => {
   const zavirani = () => {
     setExpand(false);
   };
+  const lokation = useLocation();
 
   return (
     <div className="header">
@@ -44,17 +52,37 @@ const Header = () => {
             }}
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/hledani" onClick={zavirani}>
+            <Nav activeKey={lokation.pathname} className="ms-auto">
+              <Nav.Link
+                eventKey="/hledani"
+                as={Link}
+                to="/hledani"
+                onClick={zavirani}
+              >
                 HLEDÁNÍ
               </Nav.Link>
-              <Nav.Link as={Link} to="/lekarnicka" onClick={zavirani}>
+              <Nav.Link
+                eventKey="/lekarnicka"
+                as={Link}
+                to="/lekarnicka"
+                onClick={zavirani}
+              >
                 LÉKÁRNIČKA
               </Nav.Link>
-              <Nav.Link as={Link} to="/prvniPomoc" onClick={zavirani}>
+              <Nav.Link
+                eventKey="/prvniPomoc"
+                as={Link}
+                to="/prvniPomoc"
+                onClick={zavirani}
+              >
                 PRVNÍ POMOC
               </Nav.Link>
-              <Nav.Link as={Link} to="/zvireVtisni" onClick={zavirani}>
+              <Nav.Link
+                eventKey="/zvireVtisni"
+                as={Link}
+                to="/zvireVtisni"
+                onClick={zavirani}
+              >
                 ZVÍŘE V TÍSNI
               </Nav.Link>
             </Nav>
