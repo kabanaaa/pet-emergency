@@ -20,7 +20,10 @@ const ZvireVtisni = () => (
           se domluvíte na osobním předání zvířete. Můžete zaslat do stanice
           fotografii zvířete.
         </p>
-        <p>Dispečink záchranných stanic: 774 155 155</p>
+        <p>
+          Dispečink záchranných stanic:{' '}
+          <a href="tel:+420774155155">774 155 155</a>
+        </p>
       </div>
       <Alert>
         <h2>SEDMERO PRO ZVÍŘE V NOUZI</h2>
