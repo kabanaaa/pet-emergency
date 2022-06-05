@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import './style.css';
-function creastLekarnickaLi(text) {
+function creastLekarnickaLi(text, index) {
   return (
-    <li>
+    <li key={index}>
       <img className="kriz" src="/img/kriz_pruhledne.svg" alt="krizek" /> {text}
     </li>
   );

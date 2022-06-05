@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { createRoot } from 'react-dom/client';
 import { HashRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
@@ -20,34 +20,50 @@ const App = () => (
   </div>
 );
 
-const Header = () => (
-  <div className="header">
-    <Navbar bg="primary" expand="lg">
-      <Container>
-        <Navbar.Brand as={Link} to="home">
-          <img className="logo" src="./img/logo_pruhledne.png" alt="logo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/hledani">
-              HLEDÁNÍ
-            </Nav.Link>
-            <Nav.Link as={Link} to="/lekarnicka">
-              LÉKÁRNIČKA
-            </Nav.Link>
-            <Nav.Link as={Link} to="/prvniPomoc">
-              PRVNÍ POMOC
-            </Nav.Link>
-            <Nav.Link as={Link} to="/zvireVtisni">
-              ZVÍŘE V TÍSNI
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  </div>
-);
+const Header = () => {
+  const [expand, setExpand] = useState(false);
+  const zavirani = () => {
+    setExpand(false);
+  };
+
+  return (
+    <div className="header">
+      <Navbar bg="primary" expand="lg" expanded={expand}>
+        <Container>
+          <Navbar.Brand as={Link} to="home">
+            <img className="logo" src="./img/logo_pruhledne.png" alt="logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => {
+              if (expand === 'expanded') {
+                setExpand(false);
+              } else {
+                setExpand('expanded');
+              }
+            }}
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link as={Link} to="/hledani" onClick={zavirani}>
+                HLEDÁNÍ
+              </Nav.Link>
+              <Nav.Link as={Link} to="/lekarnicka" onClick={zavirani}>
+                LÉKÁRNIČKA
+              </Nav.Link>
+              <Nav.Link as={Link} to="/prvniPomoc" onClick={zavirani}>
+                PRVNÍ POMOC
+              </Nav.Link>
+              <Nav.Link as={Link} to="/zvireVtisni" onClick={zavirani}>
+                ZVÍŘE V TÍSNI
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
+  );
+};
 
 createRoot(document.querySelector('#app')).render(
   <HashRouter>
