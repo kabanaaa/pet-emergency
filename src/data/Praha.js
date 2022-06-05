@@ -1,7 +1,7 @@
 export const praha = [
   {
     jmeno: 'Pet-Medic',
-    adresa: 'Beranových 130, 190 00 Praha 18',
+    adresa: 'Beranových 130, 19000 Praha 18',
     GPS: '50.0731317N, 14.4947492E',
     oteviraciDoba: 'PO - NE 00:00 - 24:00',
     telefon: '+420724184840',
@@ -13,7 +13,7 @@ export const praha = [
   },
   {
     jmeno: 'AA-Vet veterinární nemocnice a ambulance',
-    adresa: 'Chmelová 3316/6b, 106 00 Praha 10-Zahradní Město',
+    adresa: 'Chmelová 3316/6b, 10600 Praha 10 - Zahradní Město',
     GPS: '50.0590172N, 14.4971267E',
     oteviraciDoba:
       'PO – PÁ 8:00 – 12:00 a 14:00 - 8:00, SO - NE 0:00 – 12:00 a 14:00 – 24:00',
@@ -26,7 +26,7 @@ export const praha = [
   },
   {
     jmeno: 'VETCENTRUM Duchek s.r.o.',
-    adresa: 'K Hajům 2671/8, 155 00 Praha 5',
+    adresa: 'K Hajům 2671/8, 15500 Praha 5',
     GPS: '50.0573350N, 14.3237811E',
     oteviraciDoba: 'PO – NE 8:00 - 24:00',
     telefon: '+420775688637',
@@ -38,7 +38,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární klinika IVET',
-    adresa: 'Ke Kamýku 996/3, 140 00 Praha 4',
+    adresa: 'Ke Kamýku 996/3, 14000 Praha 4',
     GPS: '50.0157128N, 14.4462775E',
     oteviraciDoba: 'PO – NE 0:00 - 24:00',
     telefon: '+420241714358',
@@ -50,7 +50,7 @@ export const praha = [
   },
   {
     jmeno: 'VETNEMO veterinární nemocnice Libuš',
-    adresa: 'Na Šejdru 45, 142 00 Praha 4 Libuš',
+    adresa: 'Na Šejdru 45, 14200 Praha 4 - Libuš',
     GPS: '50.0084647N, 14.4588500E',
     oteviraciDoba:
       'PO – PÁ 8:00 – 22:00, SO – NE 8:00 – 20:00, PÁ - PO 22:00 - 8:00',
@@ -63,7 +63,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární Klinika Erika',
-    adresa: 'Na Šejdru 45, 142 00 Praha 4 Libuš',
+    adresa: 'Na Šejdru 45, 14200 Praha 4 - Libuš',
     GPS: '50.1064147N, 14.4751128E',
     oteviraciDoba: 'PO – NE 0:00 – 24:00',
     telefon: '+420284821784',
@@ -111,7 +111,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární klinika Zbraslav',
-    adresa: 'U Malé řeky 625, 15600 Praha-Zbraslav',
+    adresa: 'U Malé řeky 625, 15600 Praha - Zbraslav',
     GPS: '49.9749222N, 14.3966111E',
     oteviraciDoba: 'PO – NE 8:00 – 20:00',
     telefon: '+420737239602',
@@ -123,7 +123,7 @@ export const praha = [
   },
   {
     jmeno: 'ArtVET veterinarní ordinace',
-    adresa: 'Zbraslavské náměstí 1504, 15600 Praha-Zbraslav',
+    adresa: 'Zbraslavské náměstí 1504, 15600 Praha - Zbraslav',
     GPS: '49.9764253N, 14.3943225E',
     oteviraciDoba:
       'PO, ST 9:00 - 12:00, 14:00 - 20:00, PÁ 9:00 - 12:00, 14:00 - 19:00, ÚT 14:00 - 18:00, ÚT 14:00 - 19:00, SO 9:00 – 12:00',
@@ -369,7 +369,7 @@ export const praha = [
   },
   {
     jmeno: 'MetropoleVet',
-    adresa: 'Chlumecká 591, 19800 Praha 14 - Kyje, Česko',
+    adresa: 'Chlumecká 591, 19800 Praha 14 - Kyje',
     GPS: '50.1077728N, 14.5618533E',
     oteviraciDoba: 'PO - PÁ, 9:00 - 20:00, SO - NE 9:00 - 17:00',
     telefon: '+420775562710',
@@ -515,7 +515,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární klinika MVDr. Lukáš Naxera',
-    adresa: 'Dolnoměcholupská 447/27a, 11101 Praha-Dolní Měcholupy',
+    adresa: 'Dolnoměcholupská 447/27a, 11101 Praha - Dolní Měcholupy',
     GPS: '50.0572778N, 14.5498592E',
     oteviraciDoba: 'PO - PÁ 9:00 - 21:00, SO - NE 15:00 - 20:00',
     telefon: '+420272705120',
@@ -539,7 +539,7 @@ export const praha = [
   },
   {
     jmeno: 'Veterinární klinika Na Hrádku',
-    adresa: 'Na Hrádku 8, 128 00, Praha 2',
+    adresa: 'Na Hrádku 8, 12800 Praha 2',
     GPS: '50.0717317N, 14.4196711E',
     oteviraciDoba: 'PO – PÁ 8:00 – 23:00, SO 9:00 - 14:00, NE 14:00 - 19:00',
     telefon: '+420224923717',
@@ -588,7 +588,7 @@ export const praha = [
   },
   {
     jmeno: 'VetVin – veterinární klinika Vinohrady',
-    adresa: 'Jana Masaryka 457/1, 120 00, Praha 2-Vinohrady',
+    adresa: 'Jana Masaryka 457/1, 12000 Praha 2 - Vinohrady',
     GPS: '50.0700150N, 14.4347811E',
     oteviraciDoba: 'PO, - PÁ 8:00 - 20:00, SO - NE 9:00 - 12:00',
     telefon: '+420725917117',
@@ -636,7 +636,7 @@ export const praha = [
   },
   {
     jmeno: 'Asklepia',
-    adresa: 'Rybalkova 178/15, 101 00, Praha 10',
+    adresa: 'Rybalkova 178/15, 10100 Praha 10',
     GPS: '50.0713931N, 14.4438561E',
     oteviraciDoba:
       'PO, ST 14:00 - 20:00, ÚT, ČT 9:00 - 14:00, PÁ (lichý) 9:00 – 14:00, PÁ (sudý) 14:00 – 20:00, SO 9:00 - 12:00, NE 15:00 - 18:00',
@@ -686,7 +686,7 @@ export const praha = [
   },
   {
     jmeno: 'PremiumVet Jičínská veterinární klinika',
-    adresa: 'Jičínská 1787/47, 130 00 Žižkov-Vinohrady',
+    adresa: 'Jičínská 1787/47, 130 00 Žižkov - Vinohrady',
     GPS: '50.0815653N, 14.4593908E',
     oteviraciDoba:
       'PO – PÁ 8:00 – 20:00, SO - NE 11:00 - 20:00, PO - NE 20:00 - 22:00',
@@ -699,7 +699,7 @@ export const praha = [
   },
   {
     jmeno: 'PremiumVet Letná veterinární klinika',
-    adresa: 'M. Horákové 846/94, 170 00 Praha 7-Dejvice',
+    adresa: 'M. Horákové 846/94, 170 00 Praha 7 - Dejvice',
     GPS: '50.0994050N, 14.4177867E',
     oteviraciDoba: 'PO – PÁ 8:00 – 11:00, 15:00-20:00, SO - NE 10:00 - 12:00',
     telefon: '+420777002121',
