@@ -1,5 +1,4 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
 import * as ReactDOMServer from 'react-dom/server';
 import { Button } from 'react-bootstrap';
@@ -12,7 +11,7 @@ function isMobile() {
 
 function createMarkerBody(stanice, staniceCoords) {
   return (
-    <div>
+    <>
       <div className="polozkaKarty">
         <strong>Adresa:</strong>
         {stanice.adresa.split(',').map((x, i) => (
@@ -25,13 +24,11 @@ function createMarkerBody(stanice, staniceCoords) {
           src="img/telephone.svg"
           alt="sluchatko telefonu"
         />
-        <a className="odkazMapa" href={`tel:${stanice.telefon}`}>
-          {stanice.telefon}
-        </a>
+        <a href={`tel:${stanice.telefon}`}>{stanice.telefon}</a>
       </div>
       <div className="polozkaKarty">
         <img className="kontakt" src="img/web.svg" alt="znacka pro web" />
-        <a className="odkazMapa" href={stanice.web} target="_blank">
+        <a href={stanice.web} target="_blank">
           {stanice.web}
         </a>
       </div>
@@ -65,7 +62,7 @@ function createMarkerBody(stanice, staniceCoords) {
           <Button className="mt-3">Ukaž mi trasu</Button>
         </a>
       )}
-    </div>
+    </>
   );
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Accordion } from 'react-bootstrap';
-import { Alert } from 'react-bootstrap';
+import { Alert, Accordion } from 'react-bootstrap';
 
 const PrvniPomoc = () => {
   return (

@@ -15,9 +15,7 @@ import Lekarnicka from './Lekarnicka/Lekarnicka.jsx';
 import PrvniPomoc from './PrvniPomoc/PrvniPomoc.jsx';
 import ZvireVtisni from './ZvireVtisni/ZvireVtisni.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
-import { Nav } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import 'bootswatch/dist/minty/bootstrap.min.css';
 
 const App = () => (
@@ -35,7 +33,7 @@ const Header = () => {
   const lokation = useLocation();
 
   return (
-    <div className="header">
+    <div>
       <Navbar bg="primary" expand="lg" expanded={expand}>
         <Container>
           <Navbar.Brand as={Link} to="home">

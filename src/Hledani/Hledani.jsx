@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Mapa from '../common/Mapa';
 import { praha } from '../data/Praha.js';
 import { brno } from '../data/Brno.js';
@@ -6,7 +6,6 @@ import { ceskeBudejovice } from '../data/CeskeBudejovice.js';
 import { liberec } from '../data/Liberec.js';
 import { ostrava } from '../data/Ostrava.js';
 import { plzen } from '../data/Plzen.js';
-import { useState } from 'react';
 import './style.css';
 
 const Hledani = () => {

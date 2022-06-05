@@ -1,6 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
 import './style.css';
+
 function creastLekarnickaLi(text, index) {
   return (
     <li key={index}>

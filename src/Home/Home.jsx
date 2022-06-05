@@ -1,9 +1,7 @@
-import { Alert } from 'react-bootstrap';
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './style.css';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Alert, Button, Row, Col, Container } from 'react-bootstrap';
 
 const Home = () => {
   return (

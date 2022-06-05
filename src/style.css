@@ -3,22 +3,14 @@
 * {
   box-sizing: border-box;
 }
-/* 
-html {
-  font-family: 'Open Sans', sans-serif;
-  color: #444; 
-} */
 
-.mujcontainer {
+/* .mujcontainer {
   width: 100%;
   margin: 0;
-  /*   margin-right: auto;
-  margin-left: auto; */
-}
+} */
 
 body {
   margin: 0;
-  /*   width: 100%; */
 }
 
 #app {
@@ -30,12 +22,6 @@ body {
 .nav-link.active {
   text-decoration: underline;
 }
-/* .header {
-  height: 5em;
-} */
-/* .menuNavBar {
-  height: 100%;
-} */
 
 .logo {
   height: 3em;
@@ -58,25 +44,6 @@ p {
   color: black !important;
 }
 
-/* .header {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.header__h1 {
-  font-size: 12px;
-} */
-
-/* a {
-  font-size: 12px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-} */
-
-/* .header,
-.footer {
-  background-color: rgb(176, 175, 175);
-} */
 :root {
   --bs-body-color: black !important;
 }
