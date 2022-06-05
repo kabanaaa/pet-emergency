@@ -1,0 +1,12 @@
+.vysvetlivky {
+  position: absolute;
+  padding: 0.3em;
+  left: 0.5em;
+  z-index: 10;
+  background-color: #cfccd6;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.tlapkaVysvetlivky {
+  width: 1em;
+}

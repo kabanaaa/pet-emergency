@@ -7,6 +7,8 @@ import { liberec } from '../data/Liberec.js';
 import { ostrava } from '../data/Ostrava.js';
 import { plzen } from '../data/Plzen.js';
 import { useState } from 'react';
+import { Button } from 'react-bootstrap';
+import './style.css';
 
 const Hledani = () => {
   let allStanices = Array.prototype.concat.apply(
@@ -33,7 +35,25 @@ const Hledani = () => {
   }
   console.log(lokace);
   return (
-    <div className="container">
+    <div>
+      <span className="vysvetlivky">
+        <span className="me-2">
+          <img
+            className="me-1 tlapkaVysvetlivky"
+            src="/img/tlapkaDoMapyZelena_pruhledna.png"
+            alt="zelená tlapka"
+          />
+          Pohotovosti nonstop
+        </span>
+        <span>
+          <img
+            className="me-1 tlapkaVysvetlivky"
+            src="/img/tlapkaDoMapy_pruhledna2.png"
+            alt="černá tlapka"
+          />
+          Otvírací doba v detailu
+        </span>
+      </span>
       <Mapa stanices={allStanices} lokace={lokace} />
     </div>
   );

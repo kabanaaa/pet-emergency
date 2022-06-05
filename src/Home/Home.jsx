@@ -40,7 +40,7 @@ const Home = () => {
             <Col sm={4} className="d-flex justify-content-end">
               <a href="mailto:banackakaterina@gmail.com,Sarka7091@gmail.com">
                 <Button className="mt-1">
-                  Našli jste nesrovnalost? <br /> Napište nám
+                  Našli jste nesrovnalost? <br /> Napište nám.
                 </Button>
               </a>
             </Col>
