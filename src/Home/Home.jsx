@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <p className="textKlik">Vítejte na stárnkách PetEmergency,</p>
+        <p className="textKlik">Vítejte na stránkách PetEmergency,</p>
         <p className="textKlik2">
           pokud hledáte veterinární pohotovost můžete začít hledat
           <strong> zde</strong>:
