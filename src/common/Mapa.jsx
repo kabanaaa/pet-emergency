@@ -54,7 +54,9 @@ function createMarkerBody(stanice, staniceCoords) {
         </div>
       )}
       {isMobile() ? (
-        <a href={`geo:${staniceCoords.y},${staniceCoords.x}`}>Ukaž mi trasu</a>
+        <a href={`geo:${staniceCoords.y},${staniceCoords.x}`}>
+          <Button className="mt-3">Ukaž mi trasu</Button>
+        </a>
       ) : (
         <a
           href={`https://mapy.cz/zakladni?q=${staniceCoords.y},${staniceCoords.x}&z=11`}
