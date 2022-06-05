@@ -8,16 +8,17 @@
   border-radius: 50% !important;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 7%;
+  margin-bottom: 10%;
   margin-top: 5%;
 }
 
 .textKlik {
   font-weight: bold !important;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .pouceniAlert {
   background-color: #cfccd6 !important;
+  text-align: justify;
 }
