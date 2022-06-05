@@ -4,7 +4,7 @@ import './style.css';
 function creastLekarnickaLi(text, index) {
   return (
     <li key={index}>
-      <img className="kriz" src="/img/kriz_pruhledne.svg" alt="krizek" /> {text}
+      <img className="kriz" src="/img/kriz_pruhledny.png" alt="krizek" /> {text}
     </li>
   );
 }
