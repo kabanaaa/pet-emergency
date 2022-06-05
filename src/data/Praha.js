@@ -1,7 +1,7 @@
 export const praha = [
   {
     jmeno: 'Pet-Medic',
-    adresa: 'Beranových 130, 19000 Praha 18',
+    adresa: 'Dětská 2456/15, 10000 Praha - Strašnice',
     GPS: '50.0731317N, 14.4947492E',
     oteviraciDoba: 'PO - NE 00:00 - 24:00',
     telefon: '+420724184840',
