@@ -17,8 +17,8 @@ const PrvniPomoc = () => {
             Jaké jsou obecné rady, kterými se můžete řídit?
           </p>
           <p>
-            V telefonu mějte uložený kontakt na nonstop veterinu nebo mít
-            přístup k datům a využít tuto aplikaci.
+            V telefonu mějte uložený kontakt na nonstop veterinu nebo mějte
+            přístup k datům a využijte tuto aplikaci.
           </p>
           <p>
             Zavolejte na veterinární pohotovost, veterinární záchrannou službu
@@ -42,10 +42,9 @@ const PrvniPomoc = () => {
           <Accordion.Header>Přehřátí </Accordion.Header>
           <Accordion.Body>
             <p>
-              Přehřátí může nastat v letním období. Nejlepší první pomocí u
-              přehřátí je prevence - nevystavovat zvíře vysokým teplotám, zvýšit
-              příjem tekutin u zvířete, nenechávat zvíře v zavřeném autě ani na
-              pár minut.
+              Nejlepší první pomocí u přehřátí je prevence - nevystavovat zvíře
+              vysokým teplotám, zvýšit příjem tekutin u zvířete, nenechávat
+              zvíře v zavřeném autě ani na pár minut.
             </p>
             <p>Zchlaďte zvíře zábalem do mokrého ručníku na max. 10 minut.</p>
             <p>Kontaktujte veterináře.</p>
@@ -61,7 +60,7 @@ const PrvniPomoc = () => {
             </p>
             <p>Odstraňte zdroj tepla.</p>
             <p>
-              Sledujte základní životní funkce, případě zahájíte resuscitaci
+              Sledujte základní životní funkce, případně zahajte resuscitaci
             </p>
             <p>
               Vhodné je aplikovat vlhké obklady a pravidelně je měnit. Rána

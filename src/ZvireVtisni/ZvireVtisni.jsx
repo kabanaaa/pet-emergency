@@ -13,7 +13,7 @@ const ZvireVtisni = () => (
           <a href="https://play.google.com/store/search?q=zv%C3%AD%C5%99e%20v%20nouzi&c=apps">
             mobilní aplikaci
           </a>
-          , která Vám pomůže když ve městě nebo v přírodě najdete zraněné nebo
+          , která Vám pomůže, když ve městě nebo v přírodě najdete zraněné nebo
           opuštěné zvíře. Aplikace pomocí gps pozice vyhledá záchrannou stanici,
           v jejíž působnosti se právě nacházíte a nabídne Vám rovnou do stanice
           zavolat, poslat gps souřadnice místa nálezu, nebo Vás naviguje, pokus
@@ -23,46 +23,32 @@ const ZvireVtisni = () => (
         <p>Dispečink záchranných stanic: 774 155 155</p>
       </div>
       <Alert>
-        <h2>DESATERO ZVÍŘE V NOUZI</h2>
+        <h2>SEDMERO PRO ZVÍŘE V NOUZI</h2>
         <p className="textDesatero">
-          Najdete-li mládě, pak se přesvědčte zda pomoc skutečně potřebuje, zda
-          je opuštěné.
+          Pokud najdete zvíře, přesvědčte se zda pomoc skutečně potřebuje,
+          například jestli je opuštěné.
         </p>
         <p className="textDesatero">
-          Nedotýkejte se a neodebírejte mláďata zajíců, srnčí, jelení, daní a
-          mufloní zvěře, pokud nejsou prokazatelně osiřelá, zraněná nebo uvízlá.
+          Nedotýkejte se a neodebírejte zvířata včetně mláďat, pokud nejsou
+          prokazatelně osiřelá, zraněná nebo uvízlá.
         </p>
         <p className="textDesatero">
-          Dospělí jedinci patří do rukou odborníků, protože hrozí poranění
-          zachránce či jeho nakažení vzteklinou. Zda nejde o chorobu přenosnou i
-          na člověka pozná pouze odborník (veterinář)! Dodržujte hygienu!
+          Dospělá zvířata patří do rukou odborníků z důvodu nakažení přenosnou
+          nemocí. Dodržujte hygienu!
         </p>
         <p className="textDesatero">
-          Odborníkům popište místo, vzhled a projevy zraněného zvířete, oni Vám
-          poradí.
-        </p>
-        <p className="textDesatero">
-          Chraňte své zdraví – pokud nevidíte zjevné poranění, může se jednat o
-          onemocnění zvířete.
-        </p>
-        <p className="textDesatero">
-          Ochočená, uměle odchovaná zvířata nepatří do přírody, protože obvykle
-          ztrácejí přirozenou plachost, a mohou být zabita predátorem nebo
-          myslivcem jako podezřelá z nakažení vzteklinou.
+          Při kontaktování odborníků popište místo, vzhled a projevy zraněného
+          zvířete, oni Vám poradí.
         </p>
         <p className="textDesatero">
           Ptačí mládě, které potřebuje pomoc, poznáte především podle toho, že
-          ještě není opeřené, sedí na zemi a píská. Ptačího mláděte se můžete
-          dotknout.
+          ještě není opeřené, sedí na zemi a píská. <br /> Ptáčata, která jsou
+          již opeřená, ale ještě neumějí létat, nepotřebují pomoc.
         </p>
         <p className="textDesatero">
-          Ptáčata, která jsou již opeřená, ale ještě neumějí létat, nepotřebují
-          pomoc. Umístěte je na vyvýšené místo (větev, zídka, apod.), jejich
-          rodiče je najdou a nakrmí.
-        </p>
-        <p className="textDesatero">
-          Ježek, který potřebuje pomoc, se obvykle obtížně pohybuje, je malátný,
-          při dotyku rukou nenaježí bodliny, nestočí se do klubíčka.
+          Pokud potkáte ve dne ježka, je možné, že potřebuje pomoc. Jde o noční
+          zvíře, které ve dne spí. Ježek se dále může obtížně pohybovat, je
+          malátný a nestočí se do klubíčka.
         </p>
         <p className="textDesatero">
           K vodní hladině přimrzne pouze zraněné zvíře. Zkuste ho nejprve vhodně
