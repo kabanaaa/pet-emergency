@@ -12,6 +12,10 @@
   margin-top: 5%;
 }
 
+.buttonKlik:hover {
+  background-color: #008080 !important;
+}
+
 .textKlik {
   font-weight: bold !important;
   text-align: center;
