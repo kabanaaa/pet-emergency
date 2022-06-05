@@ -44,10 +44,9 @@ const PrvniPomoc = () => {
             <p>
               Nejlepší první pomocí u přehřátí je prevence - nevystavovat zvíře
               vysokým teplotám, zvýšit příjem tekutin u zvířete, nenechávat
-              zvíře v zavřeném autě ani na pár minut.
+              zvíře v zavřeném autě ani na pár minut. Zchlaďte zvíře zábalem do
+              mokrého ručníku na max. 10 minut. Kontaktujte veterináře.
             </p>
-            <p>Zchlaďte zvíře zábalem do mokrého ručníku na max. 10 minut.</p>
-            <p>Kontaktujte veterináře.</p>
           </Accordion.Body>
         </Accordion.Item>
 
@@ -55,17 +54,10 @@ const PrvniPomoc = () => {
           <Accordion.Header>Popálení</Accordion.Header>
           <Accordion.Body>
             <p>
-              Popáleniny mohou být způsobeny teplem či chemicky. Dochází k
-              poškození kůže.
-            </p>
-            <p>Odstraňte zdroj tepla.</p>
-            <p>
-              Sledujte základní životní funkce, případně zahajte resuscitaci
-            </p>
-            <p>
-              Vhodné je aplikovat vlhké obklady a pravidelně je měnit. Rána
-              způsobená chemickými popáleninami by měla být opláchnuta
-              dostatečným množstvím studené asi 10 minut.
+              Popáleniny bývají způsobeny sluncem, teplem, elektrickým proudem
+              či chemicky. Odstraňte zdroj, který způsobuje popálení. Sledujte
+              základní životní funkce a kontaktujte veterináře. Můžete aplikovat
+              vlhké obklady a pravidelně je měnit.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -74,14 +66,14 @@ const PrvniPomoc = () => {
           <Accordion.Header>Pokousání</Accordion.Header>
           <Accordion.Body>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              odio corrupti molestiae, ducimus exercitationem mollitia
-              praesentium neque dolorum hic rem ab, voluptate aspernatur ipsum
-              ratione debitis excepturi dolorem, amet vitae.
+              Nejprve zvíře důkladně prohlédněte a co nejdříve navštivte
+              veterináře. Kontaktujte také majitele utočícího zvířete a ověřte s
+              ním, zda je zvíře očkováné (chtějte vidět doklad o očkování).
+              Pokud útočící zvíře očkované není, informujte o tom svého
+              veterináře při ošetření pokousání.
             </p>
           </Accordion.Body>
         </Accordion.Item>
-
         <Accordion.Item eventKey="3">
           <Accordion.Header>Otrava</Accordion.Header>
           <Accordion.Body>
@@ -96,41 +88,17 @@ const PrvniPomoc = () => {
             </p>
           </Accordion.Body>
         </Accordion.Item>
-
         <Accordion.Item eventKey="4">
           <Accordion.Header>Zlomenina </Accordion.Header>
           <Accordion.Body>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              excepturi architecto quaerat. Unde voluptas delectus amet ratione
-              laborum et, accusantium quod libero sunt labore, cupiditate ab
-              officia aperiam sit optio. ČR.
+              Zlomneniny mohou být otevřené a nebo zavřené, bez konzultace s
+              veterinářem je neošetřujte. Proto kontaktujte veterináře a
+              dohodněte se na ošetření.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="5">
-          <Accordion.Header>Tonutí</Accordion.Header>
-          <Accordion.Body>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              excepturi architecto quaerat. Unde voluptas delectus amet ratione
-              laborum et, accusantium quod libero sunt labore, cupiditate ab
-              officia aperiam sit optio. ČR.
-            </p>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="6">
-          <Accordion.Header>Úraz nehoda</Accordion.Header>
-          <Accordion.Body>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              excepturi architecto quaerat. Unde voluptas delectus amet ratione
-              laborum et, accusantium quod libero sunt labore, cupiditate ab
-              officia aperiam sit optio. ČR.
-            </p>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="7">
           <Accordion.Header>Křečové stavy</Accordion.Header>
           <Accordion.Body>
             <p>
