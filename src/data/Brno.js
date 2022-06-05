@@ -47,7 +47,7 @@ export const brno = [
     GPS: '49.2181739N, 16.5961761E',
     oteviraciDoba: 'PO - PÁ 8:00 - 15:30, Pohotovost PO - NE 15:30 - 8:00',
     telefon:
-      'Dispečink +420541562392, Odd. vnitřních chorob, Všeobecná ambulance +420541562375, Pohotovost +420724706366, Odd.chrirurgie a ortopedie, Všeobecná ambulance +420541562356, Pohotovost +420724706320, Odd.reprodukce, Ambulance +420541562341, Pohotovost +420724537278',
+      '+420724706366',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
@@ -63,7 +63,7 @@ export const brno = [
     oteviraciDoba:
       ' PO - PÁ 8:00 - 12:00 13:00 – 15:00, Pohotovost PO - NE 16:00 - 7:45',
     telefon:
-      'Dispečink +420541562392, Klinika chorob koní +420541562372, Pohotovost +420725375122 ',
+      '+420725375122',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
@@ -77,7 +77,7 @@ export const brno = [
     GPS: '49.2168122N, 16.5977478E',
     oteviraciDoba: 'PO - PÁ 7:00 - 15:30, Pohotovost PO - PÁ 15:30 - 18:00',
     telefon:
-      'Dispečink +420541562392, Klinika chorob přežvýkavců a prasat +420541562317',
+      '+420541562392',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',

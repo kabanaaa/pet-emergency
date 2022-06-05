@@ -4,7 +4,7 @@ export const ostrava = [
     adresa: 'Na Obvodu 1104/51, 70300 Ostrava Vítkovice',
     GPS: '49.8012161N, 18.2650853E',
     oteviraciDoba: 'PO - PÁ 7:00 - 20:00, SO - NE 9:00 - 15:00',
-    telefon: '+420596788646-7',
+    telefon: '+420596788646',
     platebniMetoda: 'null',
     odkazCenik:
       'V SO, NE a o Státních svátcích je účtován pohotovostní poplatek 500,-Kč',

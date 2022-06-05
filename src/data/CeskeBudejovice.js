@@ -6,7 +6,7 @@ export const ceskeBudejovice = [
     GPS: '48.9982222N, 14.4489917E',
     oteviraciDoba:
       'PO - PÁ 8:00 - 12:00 12:30 - 22:00, SO 8:00 - 12:00 13:00 - 18:00, NE 10:00 - 12:00 13:00-18:00, Ordinace PO - CT: 15:00 - 19:00',
-    telefon: 'Klinika +420385520561, Ordinace +420606023141',
+    telefon: '+420385520561',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'PetExpert',
@@ -19,7 +19,7 @@ export const ceskeBudejovice = [
     GPS: '48.9838600N, 14.4559250E',
     oteviraciDoba:
       'PO - PÁ 8:00 - 20:00, SO 9:00 - 13:00, NE 9:00 - 11:00 17:00 - 19:00',
-    telefon: '+420385346033,Pohotovost +420605866733',
+    telefon: '+420605866733',
     platebniMetoda: 'null',
     odkazCenik: 'null',
     pojistovna: 'null',
