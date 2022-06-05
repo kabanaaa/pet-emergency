@@ -46,6 +46,7 @@ export const plzen = [
     pojistovna: 'PetExpert',
     web: 'https://veterina-plzen.cz/',
     poznamky: 'pohotovost dle domluvy',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Primaveterina MVDr. Radek Herynk',

@@ -10,6 +10,7 @@ export const liberec = [
     pojistovna: 'null',
     web: 'http://www.veterinarniklinikaruzodol.cz/',
     poznamky: 'null',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Veterinární klinika Hanychov',

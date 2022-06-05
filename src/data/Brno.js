@@ -10,6 +10,7 @@ export const brno = [
     pojistovna: 'null',
     web: 'http://hosek-vet.cz/',
     poznamky: 'Pohotovost nonstop, Objednání Online nebo telefonicky',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Veterinární pohotovost Brno MVDr.Robert Just',
@@ -37,6 +38,7 @@ export const brno = [
     pojistovna: 'PetExpert',
     web: 'https://www.veterina-seman.cz/',
     poznamky: 'null',
+    type: 'Nonstop',
   },
   {
     jmeno:
@@ -52,6 +54,7 @@ export const brno = [
     web: 'https://www.vfu.cz/cz/veterinarni-ambulance-kliniky',
     poznamky:
       'Nonstop ošetření neodkladných pacientů s pohotovostním příplatkem. Dispečink 8:00 - 20:00',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Veterinární univerzita Brno- Klinika chorob koní',

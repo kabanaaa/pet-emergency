@@ -70,10 +70,13 @@ function createMarkerBody(stanice, staniceCoords) {
 function createMarker(stanice, index) {
   var staniceCoords = SMap.Coords.fromWGS84(stanice.GPS);
 
+  let cestaKObrazku = '/img/tlapkaDoMapy_pruhledna2.png';
+  if (stanice.type === 'Nonstop') {
+    cestaKObrazku = '/img/tlapkaDoMapyZelena_pruhledna.png';
+  }
+
   var znacka = JAK.mel('div');
-  var obrazek = JAK.mel('img', {
-    src: '/img/tlapkaDoMapy_pruhledna2.png',
-  });
+  var obrazek = JAK.mel('img', { src: cestaKObrazku });
   znacka.appendChild(obrazek);
 
   var card = new SMap.Card();

@@ -10,6 +10,7 @@ export const praha = [
     pojistovna: 'null',
     web: 'https://pet-medic.cz/',
     poznamky: 'veterinární záchranná služba',
+    type: 'Nonstop',
   },
   {
     jmeno: 'AA-Vet veterinární nemocnice a ambulance',
@@ -23,6 +24,7 @@ export const praha = [
     pojistovna: 'null',
     web: 'https://www.aavet.cz',
     poznamky: 'null',
+    type: 'Nonstop',
   },
   {
     jmeno: 'VETCENTRUM Duchek s.r.o.',
@@ -35,6 +37,7 @@ export const praha = [
     pojistovna: 'PetExpert',
     web: 'https://www.vetcentrum.cz',
     poznamky: 'null',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Veterinární klinika IVET',
@@ -47,6 +50,7 @@ export const praha = [
     pojistovna: 'PetExpert',
     web: 'https://www.veterinarni-klinika.net/',
     poznamky: 'nutná telefonická domluva',
+    type: 'Nonstop',
   },
   {
     jmeno: 'VETNEMO veterinární nemocnice Libuš',
@@ -60,6 +64,7 @@ export const praha = [
     pojistovna: 'PetExpert',
     web: 'https://www.vetnemo.cz',
     poznamky: 'nutná telefonická domluva',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Veterinární Klinika Erika',
@@ -72,6 +77,7 @@ export const praha = [
     pojistovna: 'null',
     web: 'http://vet-klin-erika.cz/',
     poznamky: 'nutná telefonická domluva',
+    type: 'Nonstop',
   },
   {
     jmeno: 'Animal Clinic',
