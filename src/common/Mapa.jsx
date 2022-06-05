@@ -70,39 +70,39 @@ function createMarkerBody(stanice, staniceCoords) {
 }
 
 function createMarker(stanice, index) {
-  var staniceCoords = SMap.Coords.fromWGS84(stanice.GPS);
+  const staniceCoords = SMap.Coords.fromWGS84(stanice.GPS);
 
   let cestaKObrazku = '/img/tlapkaDoMapy_pruhledna2.png';
   if (stanice.type === 'Nonstop') {
     cestaKObrazku = '/img/tlapkaDoMapyZelena_pruhledna.png';
   }
 
-  var znacka = JAK.mel('div');
-  var obrazek = JAK.mel('img', { src: cestaKObrazku });
+  const znacka = JAK.mel('div');
+  const obrazek = JAK.mel('img', { src: cestaKObrazku });
   znacka.appendChild(obrazek);
 
-  var card = new SMap.Card();
+  const card = new SMap.Card();
   card.getHeader().innerHTML = `<strong>${stanice.jmeno}</strong>`;
   card.getBody().innerHTML = ReactDOMServer.renderToString(
     createMarkerBody(stanice, staniceCoords),
   );
 
-  var options = {
+  const options = {
     title: stanice.jmeno,
     url: znacka,
   };
-  var marker = new SMap.Marker(staniceCoords, 'myMarker' + index, options);
+  const marker = new SMap.Marker(staniceCoords, 'myMarker' + index, options);
   marker.decorate(SMap.Marker.Feature.Card, card);
   return marker;
 }
 
 const Mapa = ({ stanices, lokace }) => {
   useEffect(() => {
-    var center = SMap.Coords.fromWGS84(lokace.x, lokace.y);
-    var mapa = new SMap(JAK.gel('mapa'), center, 13);
+    const center = SMap.Coords.fromWGS84(lokace.x, lokace.y);
+    const mapa = new SMap(JAK.gel('mapa'), center, 13);
     mapa.addDefaultLayer(SMap.DEF_BASE).enable();
     mapa.addDefaultControls();
-    var layer = new SMap.Layer.Marker();
+    const layer = new SMap.Layer.Marker();
     mapa.addLayer(layer);
     layer.enable();
     let index = 0;
