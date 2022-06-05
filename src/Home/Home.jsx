@@ -11,8 +11,8 @@ const Home = () => {
       <div>
         <p className="textKlik">Vítejte na stárnkách PetEmergency,</p>
         <p className="textKlik2">
-          pokud hledáte veterinární pohotovost můžete začít hledat{' '}
-          <strong>zde</strong>:
+          pokud hledáte veterinární pohotovost můžete začít hledat
+          <strong> zde</strong>:
         </p>
 
         <Button className="buttonKlik d-flex align-items-center justify-content-center">
