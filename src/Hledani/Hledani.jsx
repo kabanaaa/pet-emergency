@@ -7,7 +7,6 @@ import { liberec } from '../data/Liberec.js';
 import { ostrava } from '../data/Ostrava.js';
 import { plzen } from '../data/Plzen.js';
 import { useState } from 'react';
-import { Button } from 'react-bootstrap';
 import './style.css';
 
 const Hledani = () => {
