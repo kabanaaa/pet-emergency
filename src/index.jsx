@@ -55,6 +55,7 @@ createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+        <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="hledani" element={<Hledani />} />
         <Route path="lekarnicka" element={<Lekarnicka />} />
