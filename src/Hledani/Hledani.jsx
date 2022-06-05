@@ -46,14 +46,6 @@ const Hledani = () => {
           />
           Pohotovosti nonstop
         </span>
-        <span>
-          <img
-            className="me-1 tlapkaVysvetlivky"
-            src="/img/tlapkaDoMapy_pruhledna2.png"
-            alt="černá tlapka"
-          />
-          Otvírací doba v detailu
-        </span>
       </span>
     </div>
   );
