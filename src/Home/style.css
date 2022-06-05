@@ -1,0 +1,22 @@
+.ikonaKlik {
+  width: 20em;
+}
+
+.buttonKlik {
+  background-color: #cfccd6 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.textKlik {
+  font-weight: bold !important;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.pouceniAlert {
+  background-color: #cfccd6 !important;
+}
