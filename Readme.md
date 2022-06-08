@@ -1,5 +1,5 @@
 # Pet Emergency
-Cílem projektu Pet Emergency je vytvořit přehled veterinárních pohotovostí pro majitele domácích mazlíčků a majitelům poskytnout další užitečné informace. Pet Emergency reaguje na absenci takového projektu.
+Cílem projektu Pet Emergency je vytvořit přehled veterinárních pohotovostí pro majitele domácích mazlíčků a majitelům poskytnout další užitečné informace. Pet Emergency reaguje na absenci takového projektu. Aplikace je vytvářeno pro Mapy.cz.
 
 ## Jak postupovat
 ![Home](./previews/home.png)

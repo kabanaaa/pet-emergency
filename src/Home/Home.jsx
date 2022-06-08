@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import { Alert, Button, Row, Col, Container } from 'react-bootstrap';
 
+
 const Home = () => {
   return (
     <>
@@ -11,8 +12,7 @@ const Home = () => {
         <p className="textKlik2">
           pokud hledáte veterinární pohotovost můžete začít hledat zde:
         </p>
-
-        <Button className="buttonKlik d-flex align-items-center justify-content-center">
+          <Button className="buttonKlik d-flex align-items-center justify-content-center">
           <Link to="/hledani">
             <img
               className="ikonaKlik"

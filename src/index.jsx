@@ -18,6 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import 'bootswatch/dist/minty/bootstrap.min.css';
 
+
 const App = () => (
   <div>
     <Header />
