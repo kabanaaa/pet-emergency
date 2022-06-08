@@ -28,7 +28,7 @@ const Home = () => {
             <Col sm={8}>
               <p>
                 Veškeré informace uvedené na těchto stránkách slouží k základní
-                orientci, pokud se Vašemu zvířeti něco děje, volejte ihned
+                orientaci, pokud se Vašemu zvířeti něco děje, volejte ihned
                 veterináře!
                 <br />
                 Než vyjedete na vybranou veterinární pohotovost, doporučujeme
