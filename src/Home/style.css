@@ -16,8 +16,7 @@
   background-color: #cfccd6 !important;
 }
 
-.textKlik,
-.textKlik2 {
+.textKlik {
   font-weight: bold !important;
   text-align: center;
   margin-top: 3%;
@@ -36,7 +35,7 @@
 
 .bt-image {
   background-repeat: no-repeat;
-  height: 100vh !important;
+  height: 80vh !important;
 }
 
 .pouceniAlert {
