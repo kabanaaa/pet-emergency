@@ -9,11 +9,12 @@ const Home = () => {
       <div
         class="bt-image"
         style={{
-          backgroundImage: 'url(/img/mapaCB.png)',
+          backgroundImage: 'url(/img/cb.png)',
         }}
       >
         <div>
           <p className="textKlik">
+            <br />
             VÍTEJTE NA STRÁNKÁCH PET EMERGENCY, <br /> HLEDAT VETERINÁRNÍ
             POHOTOVOST MŮŽETE ZAČÍT ZDE:
           </p>
