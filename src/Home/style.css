@@ -3,7 +3,7 @@
 }
 
 .buttonKlik {
-  background-color: #cfccd6 !important;
+  background-color: #008080 !important;
   border: none !important;
   border-radius: 50% !important;
   margin-left: auto;
@@ -13,19 +13,18 @@
 }
 
 .buttonKlik:hover {
-  background-color: #008080 !important;
+  background-color: #cfccd6 !important;
 }
 
-.textKlik {
+.textKlik,
+.textKlik2 {
   font-weight: bold !important;
   text-align: center;
   margin-top: 3%;
   font-family: 'Open Sans', sans-serif !important;
+  color: #008080 !important;
 }
 
-.textKlik2 {
-  text-align: center;
-}
 .pouceniAlert {
   background-color: #cfccd6 !important;
   text-align: justify;
@@ -35,3 +34,11 @@
   color: black !important;
 }
 
+.bt-image {
+  background-repeat: no-repeat;
+  height: 100vh !important;
+}
+
+.pouceniAlert {
+  border: 0 !important;
+}
