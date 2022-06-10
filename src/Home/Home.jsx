@@ -14,8 +14,8 @@ const Home = () => {
       >
         <div>
           <p className="textKlik">
-            Vítejte na stránkách PetEmergency, <br /> pokud hledáte veterinární
-            pohotovost můžete začít hledat zde:
+            VÍTEJTE NA STRÁNKÁCH PET EMERGENCY, <br /> HLEDAT VETERINÁRNÍ
+            POHOTOVOST MŮŽETE ZAČÍT ZDE:
           </p>
           <Button className="buttonKlik d-flex align-items-center justify-content-center">
             <Link to="/hledani">

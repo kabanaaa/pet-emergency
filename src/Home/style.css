@@ -19,14 +19,14 @@
 .textKlik {
   font-weight: bold !important;
   text-align: center;
-  margin-top: 3%;
   font-family: 'Open Sans', sans-serif !important;
-  color: #008080 !important;
+  color: /* #008080 */ black !important;
 }
 
 .pouceniAlert {
   background-color: #cfccd6 !important;
   text-align: justify;
+  border: 0 !important;
 }
 
 .mt-1 {
@@ -36,8 +36,4 @@
 .bt-image {
   background-repeat: no-repeat;
   height: 80vh !important;
-}
-
-.pouceniAlert {
-  border: 0 !important;
 }
