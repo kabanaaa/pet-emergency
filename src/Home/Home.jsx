@@ -9,7 +9,7 @@ const Home = () => {
       <div
         class="bt-image"
         style={{
-          backgroundImage: 'url(/img/cb.png)',
+          backgroundImage: 'url(/img/mapaCB.png)',
         }}
       >
         <div>
