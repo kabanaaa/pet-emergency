@@ -37,4 +37,7 @@
 .bt-image {
   background-repeat: no-repeat;
   height: 100vh !important;
-}
+  }
+.alert-primary {
+  margin-top: 14.7rem;
+  }
